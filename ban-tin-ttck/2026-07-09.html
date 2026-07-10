@@ -6,135 +6,415 @@
 <title>Dòng tiền bắt đáy lan tỏa, ngoại biên dầu và Iran tăng nhiệt — Bản tin 09.07.2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&display=swap" rel="stylesheet">
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
   tailwind.config = { theme: { extend: { fontFamily: { sans: ['"Be Vietnam Pro"', 'system-ui', 'sans-serif'] } } } };
 </script>
+<style>
+  :root{--navy:#102a43;--navy-deep:#081d31;--amber:#d8942f;--cream:#f7f3eb;--paper:rgba(255,255,255,.86);--line:#ded7ca}
+  html{scroll-behavior:smooth}body{background:var(--cream)}
+  body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(circle at 8% 4%,rgba(239,183,88,.18),transparent 28rem),radial-gradient(circle at 92% 16%,rgba(69,112,139,.14),transparent 34rem),linear-gradient(180deg,#fbf8f2 0%,#f3eee5 100%)}
+  .display-title{font-family:"Playfair Display",Georgia,serif;text-wrap:balance}
+  .brand-lockup{display:flex;align-items:center;gap:13px;text-decoration:none}.brand-lockup:hover{text-decoration:none}
+  .lpbs-lockup,.team-lockup{display:inline-flex;align-items:center;gap:7px;min-width:0}.lpbs-lockup img{width:46px;height:auto;display:block}.team-lockup img{width:34px;height:auto;display:block}
+  .brand-name{color:#062b5f;font-size:19px;font-weight:800;line-height:1}.brand-divider{width:1px;height:32px;background:rgba(6,43,95,.18)}
+  .branch-name{display:grid;color:#062b5f;font-weight:800;font-size:15px;line-height:.92}
+  .glass-card{background:var(--paper);border-color:rgba(205,195,179,.76);box-shadow:0 18px 48px rgba(28,43,53,.07);backdrop-filter:blur(10px)}
+  .metric-card{position:relative;overflow:hidden;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+  .metric-card:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:linear-gradient(90deg,var(--amber),#f0c675);opacity:.88}
+  .metric-card:hover{transform:translateY(-3px);border-color:#cbbdA7;box-shadow:0 16px 32px rgba(28,43,53,.09)}
+  .section-card{transition:border-color .25s ease,box-shadow .25s ease}.section-card:hover{border-color:#cbbda7;box-shadow:0 20px 50px rgba(28,43,53,.08)}
+  .archive-card{transition:transform .28s ease,border-color .28s ease,box-shadow .28s ease}.archive-card:hover{transform:translateY(-3px);box-shadow:0 18px 42px rgba(28,43,53,.09);text-decoration:none}
+  .report-sheet{position:relative;overflow:hidden;background:linear-gradient(178deg,rgba(255,253,248,.97),rgba(247,241,231,.96));border:1px solid rgba(210,199,181,.82);box-shadow:0 34px 80px rgba(28,43,53,.13)}
+  .report-sheet:before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 84% 4%,rgba(229,174,82,.13),transparent 26rem),linear-gradient(115deg,rgba(255,255,255,.35),transparent 20%)}
+  .report-sheet>*{position:relative;z-index:1}
+  .editorial-rule{height:1px;background:linear-gradient(90deg,transparent,rgba(166,106,23,.75) 18%,rgba(217,164,77,.9) 50%,rgba(166,106,23,.75) 82%,transparent)}
+  .contact-footer .brand-name,.contact-footer .branch-name{color:#F6F1E8}.contact-footer .brand-divider{background:rgba(255,255,255,.2)}
+  @media(max-width:760px){.glass-card{backdrop-filter:none}.metric-card:hover,.archive-card:hover{transform:none}.display-title{overflow-wrap:anywhere}.brand-lockup{gap:9px}.brand-divider,.team-lockup{display:none}}
+  @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
 </head>
-<body class="font-sans bg-[#EDF0F5] text-[#122B4D] antialiased leading-relaxed" style="background:#EDF0F5">
+<body class="font-sans text-[#102A43] antialiased leading-relaxed">
 
 
-<header class="bg-white border-b-[3px] border-[#122B4D] sticky top-0 z-40 shadow-[0_2px_12px_rgba(18,43,77,.06)]">
-  <div class="max-w-[1100px] mx-auto px-5 py-3.5 flex justify-between items-center gap-3 flex-wrap">
-    <div class="flex items-center gap-2.5">
-      <div class="w-[30px] h-[30px] rounded-full bg-[#122B4D] text-white flex items-center justify-center font-extrabold text-[13px]">VN</div>
-      <div>
-        <div class="text-xs font-bold tracking-[0.14em] uppercase">Bản tin TTCK</div>
-        <div class="text-[10px] tracking-[0.18em] uppercase text-[#1E6FD9] font-semibold">Daily research</div>
-      </div>
-    </div>
-    <div class="text-lg font-extrabold text-[#122B4D] max-md:hidden">— Báo cáo thị trường ngày —</div>
-    <div class="text-right text-[10px] tracking-[0.14em] uppercase text-[#5B6B80] font-semibold leading-[1.8] [&_b]:text-[#122B4D] [&_a]:text-[#1E6FD9] hover:[&_a]:underline"><b>THỨ NĂM · 09.07.2026</b><br>Tổng hợp trước giờ giao dịch · <a href="index.html">tất cả bản tin</a></div>
+<header class="bg-[#FBF8F2]/90 border-b border-[#D8CEBE] sticky top-0 z-40 shadow-[0_8px_30px_rgba(16,42,67,.06)] backdrop-blur-xl">
+  <div class="max-w-[1100px] mx-auto px-5 py-4 flex justify-between items-center gap-3 flex-wrap">
+    <a class="brand-lockup" href="https://lpbs-infless.vercel.app" target="_blank" rel="noopener" aria-label="LPBS Infless team — Trang chủ">
+      <span class="lpbs-lockup"><img src="logo.png" alt="LPBS"><span class="brand-name">LPBS</span></span>
+      <span class="brand-divider"></span>
+      <span class="team-lockup"><img src="infless-team-logo.png" alt="" aria-hidden="true"><span class="branch-name"><span>Infless</span><span>team</span></span></span>
+    </a>
+    <a href="index.html" class="text-[11px] tracking-[0.12em] uppercase text-[#A66A17] font-extrabold hover:underline">Tất cả bản tin</a>
   </div>
 </header>
-<div class="bg-white border-b border-[#DDE3EC]">
-  <div class="max-w-[1100px] mx-auto px-5 grid grid-cols-1 md:grid-cols-[minmax(220px,1fr)_2fr] gap-8 py-[34px]">
-    <div>
-      <span class="inline-block text-[11px] font-bold tracking-[0.14em] uppercase text-[#1E6FD9] border-[1.5px] border-[#1E6FD9] px-3 py-[5px] rounded mb-3.5">Bản tin ngày · 09.07.2026</span>
-      <h1 class="text-[34px] md:text-[46px] leading-[1.08] font-extrabold text-[#122B4D] tracking-[-0.01em]">Dòng tiền bắt đáy lan tỏa, ngoại biên dầu và Iran tăng nhiệt</h1>
-    </div>
-    <div>
-      <div class="text-[21px] font-bold leading-[1.4] mb-2.5">VN-Index 1.853,70 — <span class="text-[#1E6FD9]">phiên 08/07</span></div>
-      <p class="text-[14.5px] text-[#44546A] italic">Bản tin sáng 09/07 dùng phiên đã đóng 08/07: VN-Index tăng 5,45 điểm lên 1.853,70, thanh khoản HOSE cải thiện và độ rộng nghiêng về bên mua. Điểm trừ là khối ngoại quay lại bán ròng mạnh, tập trung PNJ/MSN, trong khi Brent tăng lên vùng 78,91 USD khi rủi ro Mỹ-Iran và Hormuz nóng lại.</p>
-    </div>
-  </div>
+<div class="max-w-[1140px] mx-auto px-3 md:px-5 pt-7 md:pt-9 pb-2">
+<div class="report-sheet rounded-[20px]">
+<div class="px-7 md:px-12 pt-10 md:pt-12 pb-7 text-center">
+  <div class="text-[10px] font-bold tracking-[0.28em] md:tracking-[0.42em] uppercase text-[#A66A17]">Bản tin thị trường chứng khoán</div>
+  <div class="editorial-rule my-5 mx-auto max-w-[420px]"></div>
+  <h1 class="display-title text-[40px] md:text-[56px] leading-[1.02] font-bold text-[#102A43] tracking-[-0.025em] max-w-[900px] mx-auto my-[1em]">Dòng tiền bắt đáy lan tỏa, ngoại biên dầu và Iran tăng nhiệt</h1>
+  <div class="mt-4 text-[10px] font-bold tracking-[0.22em] uppercase text-[#6D7882]">Tổng hợp trước giờ giao dịch</div>
+  <div class="mt-2 text-[10px] md:text-[11px] font-bold tracking-[0.2em] md:tracking-[0.28em] uppercase text-[#A66A17]">Thứ Năm · 09.07.2026 · Phiên tham chiếu 08.07.2026</div>
+  <p class="mt-5 max-w-[840px] mx-auto text-[14.5px] text-[#536473] italic leading-[1.8]">Bản tin sáng 09/07 dùng phiên đã đóng 08/07: VN-Index tăng 5,45 điểm lên 1.853,70, thanh khoản HOSE cải thiện và độ rộng nghiêng về bên mua. Điểm trừ là khối ngoại quay lại bán ròng mạnh, tập trung PNJ/MSN, trong khi Brent tăng lên vùng 78,91 USD khi rủi ro Mỹ-Iran và Hormuz nóng lại.</p>
 </div>
-<div class="bg-white pt-1.5 pb-[26px]">
-  <div class="max-w-[1100px] mx-auto px-5 grid grid-cols-[repeat(auto-fit,minmax(152px,1fr))] gap-3.5"><div class="border border-[#DDE3EC] rounded-lg px-4 py-3.5 bg-white">
-    <div class="text-[10px] font-bold tracking-[0.13em] uppercase text-[#5B6B80] mb-1.5">VN-Index</div>
-    <div class="text-[25px] font-extrabold text-[#122B4D] tracking-[-0.01em] leading-[1.1]">1.853,70</div>
+<div class="px-7 md:px-12 pb-8">
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-3.5"><div class="metric-card glass-card border rounded-xl px-4 py-4">
+    <div class="text-[10px] font-bold tracking-[0.14em] uppercase text-[#6D7882] mb-2">VN-Index</div>
+    <div class="text-[25px] font-extrabold text-[#102A43] tracking-[-0.02em] leading-[1.1]">1.853,70</div>
     <div class="text-[13px] font-bold mt-[3px]" style="color:#178A50">▲ +5,45 điểm</div>
-    <div class="mt-[9px] text-[11px] text-[#5B6B80] border-l-[3px] border-[#DDE3EC] pl-[9px] py-0.5 italic leading-[1.45]">phiên 08/07</div>
-  </div><div class="border border-[#DDE3EC] rounded-lg px-4 py-3.5 bg-white">
-    <div class="text-[10px] font-bold tracking-[0.13em] uppercase text-[#5B6B80] mb-1.5">Thanh khoản HOSE</div>
-    <div class="text-[25px] font-extrabold text-[#122B4D] tracking-[-0.01em] leading-[1.1]">550 triệu cp</div>
+    <div class="mt-[9px] text-[11px] text-[#6D7882] border-l-[3px] border-[#D9A44D] pl-[9px] py-0.5 italic leading-[1.45]">phiên 08/07</div>
+  </div><div class="metric-card glass-card border rounded-xl px-4 py-4">
+    <div class="text-[10px] font-bold tracking-[0.14em] uppercase text-[#6D7882] mb-2">Thanh khoản HOSE</div>
+    <div class="text-[25px] font-extrabold text-[#102A43] tracking-[-0.02em] leading-[1.1]">550 triệu cp</div>
     <div class="text-[13px] font-bold mt-[3px]" style="color:#178A50">▲ &gt;14,7 nghìn tỷ</div>
-    <div class="mt-[9px] text-[11px] text-[#5B6B80] border-l-[3px] border-[#DDE3EC] pl-[9px] py-0.5 italic leading-[1.45]">khớp lệnh HOSE</div>
-  </div><div class="border border-[#DDE3EC] rounded-lg px-4 py-3.5 bg-white">
-    <div class="text-[10px] font-bold tracking-[0.13em] uppercase text-[#5B6B80] mb-1.5">Tự doanh CTCK</div>
-    <div class="text-[25px] font-extrabold text-[#122B4D] tracking-[-0.01em] leading-[1.1]">+3 tỷ</div>
+    <div class="mt-[9px] text-[11px] text-[#6D7882] border-l-[3px] border-[#D9A44D] pl-[9px] py-0.5 italic leading-[1.45]">khớp lệnh HOSE</div>
+  </div><div class="metric-card glass-card border rounded-xl px-4 py-4">
+    <div class="text-[10px] font-bold tracking-[0.14em] uppercase text-[#6D7882] mb-2">Tự doanh CTCK</div>
+    <div class="text-[25px] font-extrabold text-[#102A43] tracking-[-0.02em] leading-[1.1]">+3 tỷ</div>
     <div class="text-[13px] font-bold mt-[3px]" style="color:#5B6B80">toàn thị trường</div>
-    <div class="mt-[9px] text-[11px] text-[#5B6B80] border-l-[3px] border-[#DDE3EC] pl-[9px] py-0.5 italic leading-[1.45]">Vietstock 08/07</div>
-  </div><div class="border border-[#DDE3EC] rounded-lg px-4 py-3.5 bg-white">
-    <div class="text-[10px] font-bold tracking-[0.13em] uppercase text-[#5B6B80] mb-1.5">Khối ngoại</div>
-    <div class="text-[25px] font-extrabold text-[#122B4D] tracking-[-0.01em] leading-[1.1]">-592 tỷ</div>
+    <div class="mt-[9px] text-[11px] text-[#6D7882] border-l-[3px] border-[#D9A44D] pl-[9px] py-0.5 italic leading-[1.45]">Vietstock 08/07</div>
+  </div><div class="metric-card glass-card border rounded-xl px-4 py-4">
+    <div class="text-[10px] font-bold tracking-[0.14em] uppercase text-[#6D7882] mb-2">Khối ngoại</div>
+    <div class="text-[25px] font-extrabold text-[#102A43] tracking-[-0.02em] leading-[1.1]">-592 tỷ</div>
     <div class="text-[13px] font-bold mt-[3px]" style="color:#D6453D">▼ Tổng 3 sàn</div>
-    <div class="mt-[9px] text-[11px] text-[#5B6B80] border-l-[3px] border-[#DDE3EC] pl-[9px] py-0.5 italic leading-[1.45]">CafeF netVal 3 sàn 07-08</div>
-  </div><div class="border border-[#DDE3EC] rounded-lg px-4 py-3.5 bg-white">
-    <div class="text-[10px] font-bold tracking-[0.13em] uppercase text-[#5B6B80] mb-1.5">S&amp;P 500</div>
-    <div class="text-[25px] font-extrabold text-[#122B4D] tracking-[-0.01em] leading-[1.1]">7.482,71</div>
+    <div class="mt-[9px] text-[11px] text-[#6D7882] border-l-[3px] border-[#D9A44D] pl-[9px] py-0.5 italic leading-[1.45]">CafeF netVal 3 sàn 07-08</div>
+  </div><div class="metric-card glass-card border rounded-xl px-4 py-4">
+    <div class="text-[10px] font-bold tracking-[0.14em] uppercase text-[#6D7882] mb-2">S&amp;P 500</div>
+    <div class="text-[25px] font-extrabold text-[#102A43] tracking-[-0.02em] leading-[1.1]">7.482,71</div>
     <div class="text-[13px] font-bold mt-[3px]" style="color:#D6453D">▼ -0,28%</div>
-    <div class="mt-[9px] text-[11px] text-[#5B6B80] border-l-[3px] border-[#DDE3EC] pl-[9px] py-0.5 italic leading-[1.45]">Yahoo 08/07 close</div>
-  </div><div class="border border-[#DDE3EC] rounded-lg px-4 py-3.5 bg-white">
-    <div class="text-[10px] font-bold tracking-[0.13em] uppercase text-[#5B6B80] mb-1.5">Dầu Brent</div>
-    <div class="text-[25px] font-extrabold text-[#122B4D] tracking-[-0.01em] leading-[1.1]">78,91 USD</div>
+    <div class="mt-[9px] text-[11px] text-[#6D7882] border-l-[3px] border-[#D9A44D] pl-[9px] py-0.5 italic leading-[1.45]">Yahoo 08/07 close</div>
+  </div><div class="metric-card glass-card border rounded-xl px-4 py-4">
+    <div class="text-[10px] font-bold tracking-[0.14em] uppercase text-[#6D7882] mb-2">Dầu Brent</div>
+    <div class="text-[25px] font-extrabold text-[#102A43] tracking-[-0.02em] leading-[1.1]">78,91 USD</div>
     <div class="text-[13px] font-bold mt-[3px]" style="color:#B97A0F">● +6,41%</div>
-    <div class="mt-[9px] text-[11px] text-[#5B6B80] border-l-[3px] border-[#DDE3EC] pl-[9px] py-0.5 italic leading-[1.45]">Yahoo BZ=F</div>
+    <div class="mt-[9px] text-[11px] text-[#6D7882] border-l-[3px] border-[#D9A44D] pl-[9px] py-0.5 italic leading-[1.45]">Yahoo BZ=F</div>
   </div></div>
 </div>
-<main class="pt-[26px] pb-2">
-  <div class="max-w-[1100px] mx-auto px-5 grid grid-cols-1 md:grid-cols-2 gap-[18px] items-start"><section class="bg-white border border-[#DDE3EC] rounded-[10px] px-6 py-[22px] md:col-span-2">
-    <div class="flex items-baseline gap-2.5 mb-1.5"><span class="text-[13px] font-extrabold text-[#1E6FD9] tracking-[0.06em]">§ 01</span><h2 class="text-[19px] font-extrabold text-[#122B4D]">Qua đêm — toàn cầu</h2></div>
+<div class="editorial-rule mx-7 md:mx-12"></div>
+<main class="px-5 md:px-12 py-8">
+  <section class="section-card glass-card border rounded-2xl px-6 py-6 break-inside-avoid">
+    <div class="flex items-center gap-3 mb-2.5"><span class="display-title shrink-0 w-9 h-9 inline-flex items-center justify-center border border-[#D9A44D]/70 bg-[#FFF9EE] text-[22px] leading-none font-bold text-[#A66A17] shadow-[inset_0_0_0_3px_rgba(217,164,77,.08)]">1</span><h2 class="text-[19px] leading-tight font-extrabold text-[#102A43]">Qua đêm — toàn cầu</h2></div>
     <div class="text-[11px] text-[#8593A6] italic mb-2.5">Tin trong 24h đến 07:05 ngày 09/07; giá live dùng Yahoo Finance chart endpoint</div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8"><div class="py-[9px] border-b border-dashed border-[#E4E9F0] text-[13.5px]"><div class="flex justify-between gap-3 items-baseline"><span class="font-semibold text-[#2C3E55] shrink-0">S&amp;P 500</span><span class="font-extrabold text-[#122B4D] text-right min-w-0 [overflow-wrap:anywhere]">7.482,71 <span class="whitespace-nowrap" style="color:#D6453D">▼ -0,28%</span></span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ VN: Phố Wall yếu nhẹ làm nền ngoại biên bớt thuận cho bluechip VN và nhóm beta cao trong phiên 09/07</div></div><div class="py-[9px] border-b border-dashed border-[#E4E9F0] text-[13.5px]"><div class="flex justify-between gap-3 items-baseline"><span class="font-semibold text-[#2C3E55] shrink-0">Brent</span><span class="font-extrabold text-[#122B4D] text-right min-w-0 [overflow-wrap:anywhere]">78,91 USD <span class="whitespace-nowrap" style="color:#B97A0F">● +6,41%</span></span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ VN: Dầu tăng theo căng thẳng Iran hỗ trợ chú ý với GAS, PVD, PVS, BSR nhưng làm tăng áp lực chi phí với hàng không và vận tải</div></div><div class="py-[9px] border-b border-dashed border-[#E4E9F0] text-[13.5px]"><div class="flex justify-between gap-3 items-baseline"><span class="font-semibold text-[#2C3E55] shrink-0">Nikkei 225</span><span class="font-extrabold text-[#122B4D] text-right min-w-0 [overflow-wrap:anywhere]">66.819,05 <span class="whitespace-nowrap" style="color:#D6453D">▼ Yahoo sáng 09/07</span></span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ VN: Châu Á yếu hơn khiến dòng tiền VN dễ thận trọng với nhóm xuất khẩu và cổ phiếu đã hồi nhanh</div></div><div class="py-[9px] border-b border-dashed border-[#E4E9F0] text-[13.5px]"><div class="flex justify-between gap-3 items-baseline"><span class="font-semibold text-[#2C3E55] shrink-0">Vàng</span><span class="font-extrabold text-[#122B4D] text-right min-w-0 [overflow-wrap:anywhere]">4.087,10 USD <span class="whitespace-nowrap" style="color:#5B6B80">-1,40%</span></span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ VN: Vàng hạ nhiệt phần nào giảm tín hiệu trú ẩn, nhưng rủi ro địa chính trị vẫn giữ tâm lý thị trường ở trạng thái nhạy</div></div><div class="py-[9px] border-b border-dashed border-[#E4E9F0] text-[13.5px]"><div class="flex justify-between gap-3 items-baseline"><span class="font-semibold text-[#2C3E55] shrink-0">Bitcoin</span><span class="font-extrabold text-[#122B4D] text-right min-w-0 [overflow-wrap:anywhere]">62.168 USD <span class="whitespace-nowrap" style="color:#D6453D">▼ -1,78%</span></span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ VN: BTC yếu cho thấy khẩu vị rủi ro retail toàn cầu chưa ủng hộ mạnh các nhịp hồi cổ phiếu</div></div><div class="py-[9px] border-b border-dashed border-[#E4E9F0] text-[13.5px]"><div class="flex justify-between gap-3 items-baseline"><span class="font-semibold text-[#2C3E55] shrink-0">AI hạ tầng</span><span class="font-extrabold text-[#122B4D] text-right min-w-0 [overflow-wrap:anywhere]">rủi ro dự án <span class="whitespace-nowrap" style="color:#5B6B80">OilPrice 09/07</span></span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ VN: Tin hạ tầng AI bị chặn là bối cảnh theo dõi cho nhóm công nghệ và điện, chưa đủ để suy luận tác động trực tiếp lên FPT/CMG</div></div></div>
-  </section><section class="bg-white border border-[#DDE3EC] rounded-[10px] px-6 py-[22px]">
-    <div class="flex items-baseline gap-2.5 mb-1.5"><span class="text-[13px] font-extrabold text-[#1E6FD9] tracking-[0.06em]">§ 02</span><h2 class="text-[19px] font-extrabold text-[#122B4D]">Địa chính trị &amp; rủi ro toàn cầu</h2></div>
+    <div class="flex flex-col"><div class="flex gap-4 py-3 border-b border-dashed border-[#E4E9F0] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[13px] font-semibold text-[#2C3E55] leading-snug">S&amp;P 500</div>
+    <div class="mt-1 font-extrabold text-[#122B4D] text-[15px] leading-tight [overflow-wrap:anywhere]">7.482,71 <span class="whitespace-nowrap" style="color:#D6453D">▼ -0,28%</span></div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>VN: Phố Wall yếu nhẹ làm nền ngoại biên bớt thuận cho bluechip VN và nhóm beta cao trong phiên 09/07
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#E4E9F0] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[13px] font-semibold text-[#2C3E55] leading-snug">Brent</div>
+    <div class="mt-1 font-extrabold text-[#122B4D] text-[15px] leading-tight [overflow-wrap:anywhere]">78,91 USD <span class="whitespace-nowrap" style="color:#B97A0F">● +6,41%</span></div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>VN: Dầu tăng theo căng thẳng Iran hỗ trợ chú ý với GAS, PVD, PVS, BSR nhưng làm tăng áp lực chi phí với hàng không và vận tải
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#E4E9F0] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[13px] font-semibold text-[#2C3E55] leading-snug">Nikkei 225</div>
+    <div class="mt-1 font-extrabold text-[#122B4D] text-[15px] leading-tight [overflow-wrap:anywhere]">66.819,05 <span class="whitespace-nowrap" style="color:#D6453D">▼ Yahoo sáng 09/07</span></div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>VN: Châu Á yếu hơn khiến dòng tiền VN dễ thận trọng với nhóm xuất khẩu và cổ phiếu đã hồi nhanh
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#E4E9F0] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[13px] font-semibold text-[#2C3E55] leading-snug">Vàng</div>
+    <div class="mt-1 font-extrabold text-[#122B4D] text-[15px] leading-tight [overflow-wrap:anywhere]">4.087,10 USD <span class="whitespace-nowrap" style="color:#5B6B80">-1,40%</span></div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>VN: Vàng hạ nhiệt phần nào giảm tín hiệu trú ẩn, nhưng rủi ro địa chính trị vẫn giữ tâm lý thị trường ở trạng thái nhạy
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#E4E9F0] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[13px] font-semibold text-[#2C3E55] leading-snug">Bitcoin</div>
+    <div class="mt-1 font-extrabold text-[#122B4D] text-[15px] leading-tight [overflow-wrap:anywhere]">62.168 USD <span class="whitespace-nowrap" style="color:#D6453D">▼ -1,78%</span></div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>VN: BTC yếu cho thấy khẩu vị rủi ro retail toàn cầu chưa ủng hộ mạnh các nhịp hồi cổ phiếu
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#E4E9F0] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[13px] font-semibold text-[#2C3E55] leading-snug">AI hạ tầng</div>
+    <div class="mt-1 font-extrabold text-[#122B4D] text-[15px] leading-tight [overflow-wrap:anywhere]">rủi ro dự án <span class="whitespace-nowrap" style="color:#5B6B80">OilPrice 09/07</span></div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>VN: Tin hạ tầng AI bị chặn là bối cảnh theo dõi cho nhóm công nghệ và điện, chưa đủ để suy luận tác động trực tiếp lên FPT/CMG
+  </div>
+</div></div>
+  </section><div class="mt-5 space-y-5"><section class="section-card glass-card border rounded-2xl px-6 py-6 break-inside-avoid">
+    <div class="flex items-center gap-3 mb-2.5"><span class="display-title shrink-0 w-9 h-9 inline-flex items-center justify-center border border-[#D9A44D]/70 bg-[#FFF9EE] text-[22px] leading-none font-bold text-[#A66A17] shadow-[inset_0_0_0_3px_rgba(217,164,77,.08)]">2</span><h2 class="text-[19px] leading-tight font-extrabold text-[#102A43]">Địa chính trị &amp; rủi ro toàn cầu</h2></div>
     
-    <div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#B97A0F"></span><span>WSJ Markets 09/07 ghi giao dịch kỳ vọng hòa bình của Wall Street va chạm với việc giao tranh Iran quay lại.<div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ VN: Rủi ro Iran làm tăng độ nhạy của dầu, tỷ giá và dòng vốn ngoại với nhóm dầu khí, hàng không và logistics</div></span></div><div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#B97A0F"></span><span>MarketWatch RSS 09/07 có tin dầu tăng sau giờ giao dịch khi Mỹ tiếp tục tấn công Iran và eo Hormuz quay lại trạng thái xung đột cao.<div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ VN: Nếu phí vận chuyển và bảo hiểm tăng, doanh nghiệp nhập khẩu nguyên liệu, hàng không và logistics có thể chịu áp lực chi phí trong vài tuần</div></span></div><div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#B97A0F"></span><span>OilPrice 09/07 ghi IMF hạ dự báo tăng trưởng toàn cầu còn 3% trong bối cảnh chiến sự Iran.<div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ VN: Tăng trưởng toàn cầu bị hạ dự báo là biến số bất lợi cho nhóm xuất khẩu, cảng biển và hàng hóa chu kỳ</div></span></div><div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#1E6FD9"></span><span>Rủi ro thương mại Mỹ với hàng Việt Nam vẫn là chủ đề theo dõi trong tháng 7; RSS sáng nay chưa có xác nhận chính sách mới đủ tươi.<div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ VN: Dệt may, thủy sản, gỗ và KCN vẫn nhạy với biến số thuế quan nhưng chưa có dữ kiện mới để nâng mức cảnh báo</div></span></div>
-  </section><section class="bg-white border border-[#DDE3EC] rounded-[10px] px-6 py-[22px]">
-    <div class="flex items-baseline gap-2.5 mb-1.5"><span class="text-[13px] font-extrabold text-[#1E6FD9] tracking-[0.06em]">§ 03</span><h2 class="text-[19px] font-extrabold text-[#122B4D]">Dòng tiền &amp; vị thế</h2></div>
+    <div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#B97A0F"></span><span>WSJ Markets 09/07 ghi giao dịch kỳ vọng hòa bình của Wall Street va chạm với việc giao tranh Iran quay lại.<div class="mt-1.5 text-xs text-[#315A77] italic leading-[1.55]">→ VN: Rủi ro Iran làm tăng độ nhạy của dầu, tỷ giá và dòng vốn ngoại với nhóm dầu khí, hàng không và logistics</div></span></div><div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#B97A0F"></span><span>MarketWatch RSS 09/07 có tin dầu tăng sau giờ giao dịch khi Mỹ tiếp tục tấn công Iran và eo Hormuz quay lại trạng thái xung đột cao.<div class="mt-1.5 text-xs text-[#315A77] italic leading-[1.55]">→ VN: Nếu phí vận chuyển và bảo hiểm tăng, doanh nghiệp nhập khẩu nguyên liệu, hàng không và logistics có thể chịu áp lực chi phí trong vài tuần</div></span></div><div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#B97A0F"></span><span>OilPrice 09/07 ghi IMF hạ dự báo tăng trưởng toàn cầu còn 3% trong bối cảnh chiến sự Iran.<div class="mt-1.5 text-xs text-[#315A77] italic leading-[1.55]">→ VN: Tăng trưởng toàn cầu bị hạ dự báo là biến số bất lợi cho nhóm xuất khẩu, cảng biển và hàng hóa chu kỳ</div></span></div><div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#1E6FD9"></span><span>Rủi ro thương mại Mỹ với hàng Việt Nam vẫn là chủ đề theo dõi trong tháng 7; RSS sáng nay chưa có xác nhận chính sách mới đủ tươi.<div class="mt-1.5 text-xs text-[#315A77] italic leading-[1.55]">→ VN: Dệt may, thủy sản, gỗ và KCN vẫn nhạy với biến số thuế quan nhưng chưa có dữ kiện mới để nâng mức cảnh báo</div></span></div>
+  </section><section class="section-card glass-card border rounded-2xl px-6 py-6 break-inside-avoid">
+    <div class="flex items-center gap-3 mb-2.5"><span class="display-title shrink-0 w-9 h-9 inline-flex items-center justify-center border border-[#D9A44D]/70 bg-[#FFF9EE] text-[22px] leading-none font-bold text-[#A66A17] shadow-[inset_0_0_0_3px_rgba(217,164,77,.08)]">3</span><h2 class="text-[19px] leading-tight font-extrabold text-[#102A43]">Dòng tiền &amp; vị thế</h2></div>
     
-    <div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Khối ngoại HOSE</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#8C231D">-560 tỷ</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ Số netVal có cấu trúc từ CafeF cho HOSE/VNINDEX, dùng làm số chuẩn thay vì suy luận từ bài tin</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Khối ngoại HNX</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#8C231D">-49 tỷ</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ Số netVal có cấu trúc từ CafeF cho HNX-INDEX, dùng làm số chuẩn thay vì suy luận từ bài tin</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Khối ngoại UPCoM</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#0C5631">+17 tỷ</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ Số netVal có cấu trúc từ CafeF cho UPCOM-INDEX, dùng làm số chuẩn thay vì suy luận từ bài tin</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Khối ngoại tổng</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#8C231D">-592 tỷ</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ Tổng cộng HOSE, HNX và UPCoM theo cùng nguồn CafeF API, dễ đối chiếu với từng sàn</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Khối ngoại 5 phiên</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#8C231D">-4.608 tỷ</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ Lũy kế 5 phiên gần nhất của cả 3 sàn cho biết áp lực dòng vốn ngoại là một phiên đơn lẻ hay xu hướng ngắn hạn</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Tự doanh tổng</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#2C3E55">+3 tỷ</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ Tự doanh gần như cân bằng toàn phiên, nên tín hiệu vị thế không đủ mạnh để xác nhận chiều dòng tiền tổ chức</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Tự doanh mua MWG</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#0C5631">+122 tỷ</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ MWG được tự doanh mua mạnh, tạo hỗ trợ riêng cho nhóm bán lẻ trong vài phiên nếu cầu nội duy trì</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Tự doanh bán HPG/GEX/ACB</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#7A4E05">-28-35 tỷ</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ HPG, GEX và ACB chịu áp lực tự doanh vừa phải, tác động theo mã nhiều hơn là rủi ro hệ thống</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Khối ngoại bán PNJ</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#8C231D">-222 tỷ</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ PNJ chịu áp lực dòng ngoại trong ngắn hạn đúng lúc tin quản trị và kế hoạch cổ phiếu quỹ còn đang được thị trường định giá lại</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Khối ngoại bán MSN</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#8C231D">-185 tỷ</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ MSN là điểm trừ riêng của nhóm tiêu dùng vốn hóa lớn và có thể tiếp tục cản chỉ số nếu bán ròng kéo dài</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Khối ngoại mua VNM</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#0C5631">+124 tỷ</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ VNM được mua ròng hỗ trợ riêng cho nhóm tiêu dùng thiết yếu trong phiên dòng ngoại phân hóa</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Khối ngoại mua MBB</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#0C5631">+100 tỷ</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ MBB có dòng ngoại nâng đỡ trong ngắn hạn, giúp nhóm ngân hàng giữ vai trò trụ đỡ thị trường</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Cá nhân khớp lệnh</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#0C5631">+955 tỷ</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ Cá nhân mua ròng qua khớp lệnh cho thấy lực bắt đáy nội đang hấp thụ phần bán của khối ngoại trong phiên 08/07</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">ETF Việt Nam</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#8C231D">-12 triệu USD</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ ETF rút ròng tuần thứ hai liên tiếp giữ áp lực trung hạn lên dòng vốn ngoại, dù câu chuyện nâng hạng vẫn là biến số hỗ trợ</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Tài khoản mở mới T6</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#0C5631">268 nghìn</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ Cơ sở nhà đầu tư cá nhân tiếp tục mở rộng, nhưng thanh khoản tháng 6 thấp cho thấy tài khoản mới chưa đồng nghĩa tiền mới vào ngay</div></div>
-  </section><section class="bg-white border border-[#DDE3EC] rounded-[10px] px-6 py-[22px]">
-    <div class="flex items-baseline gap-2.5 mb-1.5"><span class="text-[13px] font-extrabold text-[#1E6FD9] tracking-[0.06em]">§ 04</span><h2 class="text-[19px] font-extrabold text-[#122B4D]">Trong nước — tín hiệu thị trường</h2></div>
+    <div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Khối ngoại HOSE</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#8C231D">-560 tỷ</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>Số netVal có cấu trúc từ CafeF cho HOSE/VNINDEX, dùng làm số chuẩn thay vì suy luận từ bài tin
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Khối ngoại HNX</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#8C231D">-49 tỷ</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>Số netVal có cấu trúc từ CafeF cho HNX-INDEX, dùng làm số chuẩn thay vì suy luận từ bài tin
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Khối ngoại UPCoM</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#0C5631">+17 tỷ</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>Số netVal có cấu trúc từ CafeF cho UPCOM-INDEX, dùng làm số chuẩn thay vì suy luận từ bài tin
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Khối ngoại tổng</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#8C231D">-592 tỷ</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>Tổng cộng HOSE, HNX và UPCoM theo cùng nguồn CafeF API, dễ đối chiếu với từng sàn
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Khối ngoại 5 phiên</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#8C231D">-4.608 tỷ</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>Lũy kế 5 phiên gần nhất của cả 3 sàn cho biết áp lực dòng vốn ngoại là một phiên đơn lẻ hay xu hướng ngắn hạn
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Tự doanh tổng</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#2C3E55">+3 tỷ</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>Tự doanh gần như cân bằng toàn phiên, nên tín hiệu vị thế không đủ mạnh để xác nhận chiều dòng tiền tổ chức
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Tự doanh mua MWG</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#0C5631">+122 tỷ</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>MWG được tự doanh mua mạnh, tạo hỗ trợ riêng cho nhóm bán lẻ trong vài phiên nếu cầu nội duy trì
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Tự doanh bán HPG/GEX/ACB</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#7A4E05">-28-35 tỷ</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>HPG, GEX và ACB chịu áp lực tự doanh vừa phải, tác động theo mã nhiều hơn là rủi ro hệ thống
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Khối ngoại bán PNJ</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#8C231D">-222 tỷ</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>PNJ chịu áp lực dòng ngoại trong ngắn hạn đúng lúc tin quản trị và kế hoạch cổ phiếu quỹ còn đang được thị trường định giá lại
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Khối ngoại bán MSN</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#8C231D">-185 tỷ</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>MSN là điểm trừ riêng của nhóm tiêu dùng vốn hóa lớn và có thể tiếp tục cản chỉ số nếu bán ròng kéo dài
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Khối ngoại mua VNM</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#0C5631">+124 tỷ</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>VNM được mua ròng hỗ trợ riêng cho nhóm tiêu dùng thiết yếu trong phiên dòng ngoại phân hóa
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Khối ngoại mua MBB</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#0C5631">+100 tỷ</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>MBB có dòng ngoại nâng đỡ trong ngắn hạn, giúp nhóm ngân hàng giữ vai trò trụ đỡ thị trường
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Cá nhân khớp lệnh</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#0C5631">+955 tỷ</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>Cá nhân mua ròng qua khớp lệnh cho thấy lực bắt đáy nội đang hấp thụ phần bán của khối ngoại trong phiên 08/07
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">ETF Việt Nam</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#8C231D">-12 triệu USD</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>ETF rút ròng tuần thứ hai liên tiếp giữ áp lực trung hạn lên dòng vốn ngoại, dù câu chuyện nâng hạng vẫn là biến số hỗ trợ
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Tài khoản mở mới T6</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#0C5631">268 nghìn</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>Cơ sở nhà đầu tư cá nhân tiếp tục mở rộng, nhưng thanh khoản tháng 6 thấp cho thấy tài khoản mới chưa đồng nghĩa tiền mới vào ngay
+  </div>
+</div>
+  </section><section class="section-card glass-card border rounded-2xl px-6 py-6 break-inside-avoid">
+    <div class="flex items-center gap-3 mb-2.5"><span class="display-title shrink-0 w-9 h-9 inline-flex items-center justify-center border border-[#D9A44D]/70 bg-[#FFF9EE] text-[22px] leading-none font-bold text-[#A66A17] shadow-[inset_0_0_0_3px_rgba(217,164,77,.08)]">4</span><h2 class="text-[19px] leading-tight font-extrabold text-[#102A43]">Trong nước — tín hiệu thị trường</h2></div>
     
-    <div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#178A50"></span><span>Vietstock 08/07 ghi VN-Index tăng 0,29% lên 1.853,70 điểm, HNX-Index tăng 2,26% lên 300,39 điểm.</span></div><div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#178A50"></span><span>Độ rộng toàn thị trường tích cực hơn với 398 mã tăng và 287 mã giảm; VN30 có 19 mã tăng, 8 mã giảm và 3 mã tham chiếu.</span></div><div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#178A50"></span><span>Khối lượng khớp lệnh HOSE đạt hơn 550 triệu cổ phiếu, tương đương hơn 14,7 nghìn tỷ đồng và vượt mức trung bình 20 ngày theo Vietstock Daily.</span></div><div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#178A50"></span><span>Nhóm năng lượng tăng mạnh nhất thị trường với BSR +3,51%, PVS +1,94%, PVT +2,37% và PVC +3,25%.</span></div><div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#B97A0F"></span><span>PNJ thoát sàn và đóng cửa tăng 2,36% với thanh khoản kỷ lục theo VnEconomy, nhưng vẫn là tâm điểm bán ròng của khối ngoại.</span></div><div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#D6453D"></span><span>FPT giảm 1,5% và nhóm công nghệ thông tin là nhóm giảm mạnh nhất thị trường theo Vietstock.</span></div>
-  </section><section class="bg-white border border-[#DDE3EC] rounded-[10px] px-6 py-[22px]">
-    <div class="flex items-baseline gap-2.5 mb-1.5"><span class="text-[13px] font-extrabold text-[#1E6FD9] tracking-[0.06em]">§ 05</span><h2 class="text-[19px] font-extrabold text-[#122B4D]">Vĩ mô &amp; tiền tệ</h2></div>
+    <div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#178A50"></span><span>Vietstock 08/07 ghi VN-Index tăng 0,29% lên 1.853,70 điểm, HNX-Index tăng 2,26% lên 300,39 điểm.</span></div><div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#178A50"></span><span>Độ rộng toàn thị trường tích cực hơn với 398 mã tăng và 287 mã giảm; VN30 có 19 mã tăng, 8 mã giảm và 3 mã tham chiếu.</span></div><div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#178A50"></span><span>Khối lượng khớp lệnh HOSE đạt hơn 550 triệu cổ phiếu, tương đương hơn 14,7 nghìn tỷ đồng và vượt mức trung bình 20 ngày theo Vietstock Daily.</span></div><div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#178A50"></span><span>Nhóm năng lượng tăng mạnh nhất thị trường với BSR +3,51%, PVS +1,94%, PVT +2,37% và PVC +3,25%.</span></div><div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#B97A0F"></span><span>PNJ thoát sàn và đóng cửa tăng 2,36% với thanh khoản kỷ lục theo VnEconomy, nhưng vẫn là tâm điểm bán ròng của khối ngoại.</span></div><div class="flex gap-[11px] py-[9px] border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 w-2 h-2 rounded-full mt-[7px]" style="background:#D6453D"></span><span>FPT giảm 1,5% và nhóm công nghệ thông tin là nhóm giảm mạnh nhất thị trường theo Vietstock.</span></div>
+  </section><section class="section-card glass-card border rounded-2xl px-6 py-6 break-inside-avoid">
+    <div class="flex items-center gap-3 mb-2.5"><span class="display-title shrink-0 w-9 h-9 inline-flex items-center justify-center border border-[#D9A44D]/70 bg-[#FFF9EE] text-[22px] leading-none font-bold text-[#A66A17] shadow-[inset_0_0_0_3px_rgba(217,164,77,.08)]">5</span><h2 class="text-[19px] leading-tight font-extrabold text-[#102A43]">Vĩ mô &amp; tiền tệ</h2></div>
     
-    <div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Tăng trưởng toàn cầu</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#7A4E05">3,0%</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ OilPrice 09/07 dẫn IMF hạ dự báo tăng trưởng trong bối cảnh Iran, tạo nền bất lợi cho nhóm xuất khẩu và hàng hóa chu kỳ</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Nút thắt tư nhân</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#0F4187">lao động</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ Vietstock 08/07 nêu thiếu lao động và tâm lý e ngại thực thi chính sách là điểm nghẽn cần tháo gỡ, tác động thiên về kỳ vọng cải cách trung hạn</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Tài chính xanh</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#0F4187">trụ cột</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ Định hướng thị trường carbon và tài chính xanh hỗ trợ câu chuyện dài hạn cho ngân hàng, khu công nghiệp và doanh nghiệp xuất khẩu chịu chuẩn ESG</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Lãi suất liên ngân hàng ON</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#7A4E05">6,01% · +34bp</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ ON +34 bp lên 6,01% cho thấy chi phí vốn ngắn hạn trên liên ngân hàng tăng, cần theo dõi tác động tới ngân hàng và dòng tiền chứng khoán trong vài phiên tới</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">USD/VND (XE)</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#2C3E55">26.293 · -0,01%</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ USD/VND gần như đi ngang trong 24h, nên tỷ giá chưa tạo thêm tín hiệu mới cho nhóm nhập khẩu, xuất khẩu và nợ USD</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Tỷ giá SBV/NHTM/tự do</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#2C3E55">25.206 · 26.466 · 26.480</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ Tỷ giá tự do không đổi trong ngày, nên áp lực tỷ giá nội địa chưa tăng thêm dù khối ngoại bán ròng</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Lãi suất OMO</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#2C3E55">4,50% · không đổi</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ OMO ở 4,50% cho thấy mặt bằng điều hành ngắn hạn chưa đổi, nên áp lực thanh khoản cần đọc thêm qua ON và hoạt động bơm/hút của SBV</div></div><div class="py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0"><div class="flex justify-between gap-3.5 items-baseline text-[13.5px]"><span class="text-[#44546A] basis-[38%] grow-0 shrink-0 min-w-0">Tín dụng &amp; cung tiền</span><span class="font-extrabold text-right grow shrink min-w-0 [overflow-wrap:anywhere]" style="color:#2C3E55">18,23% · 5,86% · 10,76%</span></div><div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ Tín dụng tăng nhanh hơn M2/huy động là nền hỗ trợ tăng trưởng nhưng cũng làm thị trường nhạy hơn với biến động lãi suất và thanh khoản tiền đồng</div></div>
-  </section><section class="bg-white border border-[#DDE3EC] rounded-[10px] px-6 py-[22px]">
-    <div class="flex items-baseline gap-2.5 mb-1.5"><span class="text-[13px] font-extrabold text-[#1E6FD9] tracking-[0.06em]">§ 06</span><h2 class="text-[19px] font-extrabold text-[#122B4D]">Doanh nghiệp &amp; giao dịch nội bộ</h2></div>
+    <div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Tăng trưởng toàn cầu</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#7A4E05">3,0%</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>OilPrice 09/07 dẫn IMF hạ dự báo tăng trưởng trong bối cảnh Iran, tạo nền bất lợi cho nhóm xuất khẩu và hàng hóa chu kỳ
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Nút thắt tư nhân</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#0F4187">lao động</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>Vietstock 08/07 nêu thiếu lao động và tâm lý e ngại thực thi chính sách là điểm nghẽn cần tháo gỡ, tác động thiên về kỳ vọng cải cách trung hạn
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Tài chính xanh</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#0F4187">trụ cột</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>Định hướng thị trường carbon và tài chính xanh hỗ trợ câu chuyện dài hạn cho ngân hàng, khu công nghiệp và doanh nghiệp xuất khẩu chịu chuẩn ESG
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Lãi suất liên ngân hàng ON</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#7A4E05">6,01% · +34bp</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>ON +34 bp lên 6,01% cho thấy chi phí vốn ngắn hạn trên liên ngân hàng tăng, cần theo dõi tác động tới ngân hàng và dòng tiền chứng khoán trong vài phiên tới
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">USD/VND (XE)</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#2C3E55">26.293 · -0,01%</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>USD/VND gần như đi ngang trong 24h, nên tỷ giá chưa tạo thêm tín hiệu mới cho nhóm nhập khẩu, xuất khẩu và nợ USD
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Tỷ giá SBV/NHTM/tự do</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#2C3E55">25.206 · 26.466 · 26.480</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>Tỷ giá tự do không đổi trong ngày, nên áp lực tỷ giá nội địa chưa tăng thêm dù khối ngoại bán ròng
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Lãi suất OMO</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#2C3E55">4,50% · không đổi</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>OMO ở 4,50% cho thấy mặt bằng điều hành ngắn hạn chưa đổi, nên áp lực thanh khoản cần đọc thêm qua ON và hoạt động bơm/hút của SBV
+  </div>
+</div><div class="flex gap-4 py-3 border-b border-dashed border-[#DDD7CC] last:border-b-0">
+  <div class="basis-1/4 shrink-0 min-w-0 pr-3">
+    <div class="text-[11px] font-semibold text-[#44546A] leading-snug">Tín dụng &amp; cung tiền</div>
+    <div class="mt-1 font-extrabold text-[15px] leading-tight [overflow-wrap:anywhere]" style="color:#2C3E55">18,23% · 5,86% · 10,76%</div>
+  </div>
+  <div class="relative basis-3/4 min-w-0 pl-4 text-[13.5px] text-[#2C3E55] leading-[1.55]">
+    <span class="absolute -left-1 top-0.5 text-[#A66A17]" aria-hidden="true">→</span>Tín dụng tăng nhanh hơn M2/huy động là nền hỗ trợ tăng trưởng nhưng cũng làm thị trường nhạy hơn với biến động lãi suất và thanh khoản tiền đồng
+  </div>
+</div>
+  </section><section class="section-card glass-card border rounded-2xl px-6 py-6 break-inside-avoid">
+    <div class="flex items-center gap-3 mb-2.5"><span class="display-title shrink-0 w-9 h-9 inline-flex items-center justify-center border border-[#D9A44D]/70 bg-[#FFF9EE] text-[22px] leading-none font-bold text-[#A66A17] shadow-[inset_0_0_0_3px_rgba(217,164,77,.08)]">6</span><h2 class="text-[19px] leading-tight font-extrabold text-[#102A43]">Doanh nghiệp &amp; giao dịch nội bộ</h2></div>
     
-    <div class="flex gap-2.5 items-start py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 text-[11.5px] font-extrabold px-[9px] py-0.5 rounded mt-0.5 tracking-[0.04em]" style="background:#FAF0DC;color:#7A4E05">PNJ</span><span>Vietstock 09/07 tổng hợp PNJ công bố kế hoạch mua lại cổ phiếu quỹ để bảo vệ giá trị doanh nghiệp sau chuỗi biến động mạnh.<div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ PNJ có lực đỡ kỳ vọng từ cổ phiếu quỹ nhưng vẫn chịu áp lực niềm tin và bán ròng ngoại trong ngắn hạn</div></span></div><div class="flex gap-2.5 items-start py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 text-[11.5px] font-extrabold px-[9px] py-0.5 rounded mt-0.5 tracking-[0.04em]" style="background:#E3F4EB;color:#0C5631">MWG</span><span>Vietstock 08/07 ghi tự doanh mua ròng MWG 122 tỷ đồng, vượt xa phần còn lại trong chiều mua.<div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ MWG được hỗ trợ bởi dòng tiền tự doanh trong vài phiên nếu nhóm bán lẻ tiếp tục hút tiền</div></span></div><div class="flex gap-2.5 items-start py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 text-[11.5px] font-extrabold px-[9px] py-0.5 rounded mt-0.5 tracking-[0.04em]" style="background:#FAF0DC;color:#7A4E05">VSC</span><span>Vietstock 08/07 ghi LeadCap bán gần 30 triệu cổ phiếu VSC, giảm sở hữu từ 16,03% xuống còn 8,11% và chấp nhận lỗ hơn 20% cho gần nửa khoản đầu tư.<div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ VSC chịu rủi ro cung lớn và tín hiệu thoái vốn của cổ đông tổ chức trong ngắn hạn</div></span></div><div class="flex gap-2.5 items-start py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 text-[11.5px] font-extrabold px-[9px] py-0.5 rounded mt-0.5 tracking-[0.04em]" style="background:#E7F0FC;color:#0F4187">TCI/BBT/SGI</span><span>Vietstock 08/07 ghi TCI dự kiến chuyển nhượng toàn bộ gần 1,9 triệu cổ phiếu BBT, tương đương 9,53% vốn, cho công ty mẹ SGI.<div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ TCI chuyển khoản đầu tư về công ty mẹ, tác động chủ yếu ở cấu trúc danh mục và giao dịch thỏa thuận theo mã</div></span></div><div class="flex gap-2.5 items-start py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 text-[11.5px] font-extrabold px-[9px] py-0.5 rounded mt-0.5 tracking-[0.04em]" style="background:#FAF0DC;color:#7A4E05">DPG</span><span>Vietstock 08/07 ghi DPG lên tiếng sau thông tin xử phạt hành vi thao túng cổ phiếu, khẳng định quyết định xử phạt không nhằm vào công ty.<div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ DPG còn rủi ro tâm lý ngắn hạn dù doanh nghiệp phủ nhận liên quan trực tiếp đến các giao dịch vi phạm</div></span></div><div class="flex gap-2.5 items-start py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 text-[11.5px] font-extrabold px-[9px] py-0.5 rounded mt-0.5 tracking-[0.04em]" style="background:#E7F0FC;color:#0F4187">DBM</span><span>Vietstock 09/07 ghi DBM sắp chia cổ tức tiền 3.500 đồng/cổ phiếu.<div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ DBM có sự kiện cổ tức hỗ trợ câu chuyện thu nhập cổ đông trong ngắn hạn nhưng thanh khoản UPCoM cần được soi riêng</div></span></div><div class="flex gap-2.5 items-start py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 text-[11.5px] font-extrabold px-[9px] py-0.5 rounded mt-0.5 tracking-[0.04em]" style="background:#E7F0FC;color:#0F4187">VBB</span><span>Vietstock 09/07 ghi Vietbank sẽ chính thức lên HOSE ngày 14/07 với giá tham chiếu 13.300 đồng/cổ phiếu.<div class="mt-0.5 text-xs text-[#0F4187] italic leading-[1.5]">→ VBB có mốc niêm yết mới tạo chú ý cho nhóm ngân hàng nhỏ trong tuần tới</div></span></div>
-  </section><section class="bg-white border border-[#DDE3EC] rounded-[10px] px-6 py-[22px]">
-    <div class="flex items-baseline gap-2.5 mb-1.5"><span class="text-[13px] font-extrabold text-[#1E6FD9] tracking-[0.06em]">§ 07</span><h2 class="text-[19px] font-extrabold text-[#122B4D]">Lịch sự kiện</h2></div>
+    <div class="flex gap-2.5 items-start py-2 border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 text-[11.5px] font-extrabold px-[9px] py-0.5 rounded mt-0.5 tracking-[0.04em]" style="background:#FAF0DC;color:#7A4E05">PNJ</span><span>Vietstock 09/07 tổng hợp PNJ công bố kế hoạch mua lại cổ phiếu quỹ để bảo vệ giá trị doanh nghiệp sau chuỗi biến động mạnh.<div class="mt-1.5 text-xs text-[#315A77] italic leading-[1.55]">→ PNJ có lực đỡ kỳ vọng từ cổ phiếu quỹ nhưng vẫn chịu áp lực niềm tin và bán ròng ngoại trong ngắn hạn</div></span></div><div class="flex gap-2.5 items-start py-2 border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 text-[11.5px] font-extrabold px-[9px] py-0.5 rounded mt-0.5 tracking-[0.04em]" style="background:#E3F4EB;color:#0C5631">MWG</span><span>Vietstock 08/07 ghi tự doanh mua ròng MWG 122 tỷ đồng, vượt xa phần còn lại trong chiều mua.<div class="mt-1.5 text-xs text-[#315A77] italic leading-[1.55]">→ MWG được hỗ trợ bởi dòng tiền tự doanh trong vài phiên nếu nhóm bán lẻ tiếp tục hút tiền</div></span></div><div class="flex gap-2.5 items-start py-2 border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 text-[11.5px] font-extrabold px-[9px] py-0.5 rounded mt-0.5 tracking-[0.04em]" style="background:#FAF0DC;color:#7A4E05">VSC</span><span>Vietstock 08/07 ghi LeadCap bán gần 30 triệu cổ phiếu VSC, giảm sở hữu từ 16,03% xuống còn 8,11% và chấp nhận lỗ hơn 20% cho gần nửa khoản đầu tư.<div class="mt-1.5 text-xs text-[#315A77] italic leading-[1.55]">→ VSC chịu rủi ro cung lớn và tín hiệu thoái vốn của cổ đông tổ chức trong ngắn hạn</div></span></div><div class="flex gap-2.5 items-start py-2 border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 text-[11.5px] font-extrabold px-[9px] py-0.5 rounded mt-0.5 tracking-[0.04em]" style="background:#E7F0FC;color:#0F4187">TCI/BBT/SGI</span><span>Vietstock 08/07 ghi TCI dự kiến chuyển nhượng toàn bộ gần 1,9 triệu cổ phiếu BBT, tương đương 9,53% vốn, cho công ty mẹ SGI.<div class="mt-1.5 text-xs text-[#315A77] italic leading-[1.55]">→ TCI chuyển khoản đầu tư về công ty mẹ, tác động chủ yếu ở cấu trúc danh mục và giao dịch thỏa thuận theo mã</div></span></div><div class="flex gap-2.5 items-start py-2 border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 text-[11.5px] font-extrabold px-[9px] py-0.5 rounded mt-0.5 tracking-[0.04em]" style="background:#FAF0DC;color:#7A4E05">DPG</span><span>Vietstock 08/07 ghi DPG lên tiếng sau thông tin xử phạt hành vi thao túng cổ phiếu, khẳng định quyết định xử phạt không nhằm vào công ty.<div class="mt-1.5 text-xs text-[#315A77] italic leading-[1.55]">→ DPG còn rủi ro tâm lý ngắn hạn dù doanh nghiệp phủ nhận liên quan trực tiếp đến các giao dịch vi phạm</div></span></div><div class="flex gap-2.5 items-start py-2 border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 text-[11.5px] font-extrabold px-[9px] py-0.5 rounded mt-0.5 tracking-[0.04em]" style="background:#E7F0FC;color:#0F4187">DBM</span><span>Vietstock 09/07 ghi DBM sắp chia cổ tức tiền 3.500 đồng/cổ phiếu.<div class="mt-1.5 text-xs text-[#315A77] italic leading-[1.55]">→ DBM có sự kiện cổ tức hỗ trợ câu chuyện thu nhập cổ đông trong ngắn hạn nhưng thanh khoản UPCoM cần được soi riêng</div></span></div><div class="flex gap-2.5 items-start py-2 border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 text-[11.5px] font-extrabold px-[9px] py-0.5 rounded mt-0.5 tracking-[0.04em]" style="background:#E7F0FC;color:#0F4187">VBB</span><span>Vietstock 09/07 ghi Vietbank sẽ chính thức lên HOSE ngày 14/07 với giá tham chiếu 13.300 đồng/cổ phiếu.<div class="mt-1.5 text-xs text-[#315A77] italic leading-[1.55]">→ VBB có mốc niêm yết mới tạo chú ý cho nhóm ngân hàng nhỏ trong tuần tới</div></span></div>
+  </section><section class="section-card glass-card border rounded-2xl px-6 py-6 break-inside-avoid">
+    <div class="flex items-center gap-3 mb-2.5"><span class="display-title shrink-0 w-9 h-9 inline-flex items-center justify-center border border-[#D9A44D]/70 bg-[#FFF9EE] text-[22px] leading-none font-bold text-[#A66A17] shadow-[inset_0_0_0_3px_rgba(217,164,77,.08)]">7</span><h2 class="text-[19px] leading-tight font-extrabold text-[#102A43]">Lịch sự kiện</h2></div>
     
-    <div class="flex gap-[9px] items-start py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 min-w-[88px] text-center font-extrabold text-xs px-2 py-[3px] rounded" style="background:#E7F0FC;color:#0F4187">09/07</span><span class="shrink-0 text-[10px] font-extrabold tracking-[0.08em] px-1.5 py-0.5 rounded-[3px] mt-[3px]" style="background:#E7F0FC;color:#0F4187">VN</span><span>Theo dõi VN-Index kiểm định vùng 1.850-1.860 sau phiên hồi có thanh khoản cải thiện</span></div><div class="flex gap-[9px] items-start py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 min-w-[88px] text-center font-extrabold text-xs px-2 py-[3px] rounded" style="background:#FAF0DC;color:#7A4E05">09/07</span><span class="shrink-0 text-[10px] font-extrabold tracking-[0.08em] px-1.5 py-0.5 rounded-[3px] mt-[3px]" style="background:#E7F0FC;color:#0F4187">VN</span><span>Theo dõi phản ứng với PNJ sau phiên thoát sàn nhưng bị khối ngoại bán ròng 222 tỷ đồng</span></div><div class="flex gap-[9px] items-start py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 min-w-[88px] text-center font-extrabold text-xs px-2 py-[3px] rounded" style="background:#FAF0DC;color:#7A4E05">09/07</span><span class="shrink-0 text-[10px] font-extrabold tracking-[0.08em] px-1.5 py-0.5 rounded-[3px] mt-[3px]" style="background:#EDF1F6;color:#2C3E55">QT</span><span>Theo dõi dầu Brent, Hormuz và tin Mỹ-Iran sau khi MarketWatch/WSJ RSS ghi căng thẳng quay lại</span></div><div class="flex gap-[9px] items-start py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 min-w-[88px] text-center font-extrabold text-xs px-2 py-[3px] rounded" style="background:#E7F0FC;color:#0F4187">14/07</span><span class="shrink-0 text-[10px] font-extrabold tracking-[0.08em] px-1.5 py-0.5 rounded-[3px] mt-[3px]" style="background:#E7F0FC;color:#0F4187">VN</span><span>Vietbank dự kiến lên HOSE với giá tham chiếu 13.300 đồng/cổ phiếu</span></div><div class="flex gap-[9px] items-start py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 min-w-[88px] text-center font-extrabold text-xs px-2 py-[3px] rounded" style="background:#E7F0FC;color:#0F4187">giữa tháng 07</span><span class="shrink-0 text-[10px] font-extrabold tracking-[0.08em] px-1.5 py-0.5 rounded-[3px] mt-[3px]" style="background:#E7F0FC;color:#0F4187">VN</span><span>Dự kiến kỳ review bán niên VN30/VNDiamond/VNFINLEAD, chờ danh mục chính thức</span></div><div class="flex gap-[9px] items-start py-2 border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 min-w-[88px] text-center font-extrabold text-xs px-2 py-[3px] rounded" style="background:#E7F0FC;color:#0F4187">tháng 07</span><span class="shrink-0 text-[10px] font-extrabold tracking-[0.08em] px-1.5 py-0.5 rounded-[3px] mt-[3px]" style="background:#E7F0FC;color:#0F4187">VN</span><span>Mùa BCTC quý 2 mở dần, chú ý ngân hàng, chứng khoán, điện, bán lẻ và bất động sản</span></div>
-  </section><section class="bg-white border border-[#DDE3EC] rounded-[10px] px-6 py-[22px]">
-    <div class="flex items-baseline gap-2.5 mb-1.5"><span class="text-[13px] font-extrabold text-[#1E6FD9] tracking-[0.06em]">§ 08</span><h2 class="text-[19px] font-extrabold text-[#122B4D]">Góc nhìn &amp; chiến lược</h2></div>
+    <div class="flex gap-[9px] items-start py-2 border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 min-w-[88px] text-center font-extrabold text-xs px-2 py-[3px] rounded" style="background:#E7F0FC;color:#0F4187">09/07</span><span class="shrink-0 text-[10px] font-extrabold tracking-[0.08em] px-1.5 py-0.5 rounded-[3px] mt-[3px]" style="background:#E7F0FC;color:#0F4187">VN</span><span class="min-w-0 break-words">Theo dõi VN-Index kiểm định vùng 1.850-1.860 sau phiên hồi có thanh khoản cải thiện</span></div><div class="flex gap-[9px] items-start py-2 border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 min-w-[88px] text-center font-extrabold text-xs px-2 py-[3px] rounded" style="background:#FAF0DC;color:#7A4E05">09/07</span><span class="shrink-0 text-[10px] font-extrabold tracking-[0.08em] px-1.5 py-0.5 rounded-[3px] mt-[3px]" style="background:#E7F0FC;color:#0F4187">VN</span><span class="min-w-0 break-words">Theo dõi phản ứng với PNJ sau phiên thoát sàn nhưng bị khối ngoại bán ròng 222 tỷ đồng</span></div><div class="flex gap-[9px] items-start py-2 border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 min-w-[88px] text-center font-extrabold text-xs px-2 py-[3px] rounded" style="background:#FAF0DC;color:#7A4E05">09/07</span><span class="shrink-0 text-[10px] font-extrabold tracking-[0.08em] px-1.5 py-0.5 rounded-[3px] mt-[3px]" style="background:#EDF1F6;color:#2C3E55">QT</span><span class="min-w-0 break-words">Theo dõi dầu Brent, Hormuz và tin Mỹ-Iran sau khi MarketWatch/WSJ RSS ghi căng thẳng quay lại</span></div><div class="flex gap-[9px] items-start py-2 border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 min-w-[88px] text-center font-extrabold text-xs px-2 py-[3px] rounded" style="background:#E7F0FC;color:#0F4187">14/07</span><span class="shrink-0 text-[10px] font-extrabold tracking-[0.08em] px-1.5 py-0.5 rounded-[3px] mt-[3px]" style="background:#E7F0FC;color:#0F4187">VN</span><span class="min-w-0 break-words">Vietbank dự kiến lên HOSE với giá tham chiếu 13.300 đồng/cổ phiếu</span></div><div class="flex gap-[9px] items-start py-2 border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 min-w-[88px] text-center font-extrabold text-xs px-2 py-[3px] rounded" style="background:#E7F0FC;color:#0F4187">giữa tháng 07</span><span class="shrink-0 text-[10px] font-extrabold tracking-[0.08em] px-1.5 py-0.5 rounded-[3px] mt-[3px]" style="background:#E7F0FC;color:#0F4187">VN</span><span class="min-w-0 break-words">Dự kiến kỳ review bán niên VN30/VNDiamond/VNFINLEAD, chờ danh mục chính thức</span></div><div class="flex gap-[9px] items-start py-2 border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#2C3E55]"><span class="shrink-0 min-w-[88px] text-center font-extrabold text-xs px-2 py-[3px] rounded" style="background:#E7F0FC;color:#0F4187">tháng 07</span><span class="shrink-0 text-[10px] font-extrabold tracking-[0.08em] px-1.5 py-0.5 rounded-[3px] mt-[3px]" style="background:#E7F0FC;color:#0F4187">VN</span><span class="min-w-0 break-words">Mùa BCTC quý 2 mở dần, chú ý ngân hàng, chứng khoán, điện, bán lẻ và bất động sản</span></div>
+  </section></div><div class="mt-5"><section class="section-card glass-card border rounded-2xl px-6 py-6 break-inside-avoid">
+    <div class="flex items-center gap-3 mb-2.5"><span class="display-title shrink-0 w-9 h-9 inline-flex items-center justify-center border border-[#D9A44D]/70 bg-[#FFF9EE] text-[22px] leading-none font-bold text-[#A66A17] shadow-[inset_0_0_0_3px_rgba(217,164,77,.08)]">8</span><h2 class="text-[19px] leading-tight font-extrabold text-[#102A43]">Góc nhìn &amp; chiến lược</h2></div>
     <div class="text-[11px] text-[#8593A6] italic mb-2.5">Nhận định từ Vietstock/VnEconomy — không phải khuyến nghị</div>
-    <div class="flex items-center gap-3 py-[9px] border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#44546A]"><span class="shrink-0 min-w-[64px] text-center font-extrabold text-[15px] px-2.5 py-[5px] rounded-[5px] border-l-4" style="background:#E3F4EB;color:#0C5631;border-color:#178A50">Nhịp phục hồi</span><span>Vietstock Daily 09/07 cho rằng VN-Index tiếp tục phục hồi với khối lượng giao dịch cải thiện và vượt mức trung bình 20 ngày</span></div><div class="flex items-center gap-3 py-[9px] border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#44546A]"><span class="shrink-0 min-w-[64px] text-center font-extrabold text-[15px] px-2.5 py-[5px] rounded-[5px] border-l-4" style="background:#FAF0DC;color:#7A4E05;border-color:#B97A0F">Rủi ro kỹ thuật</span><span>Vietstock Daily 09/07 lưu ý rủi ro ngắn hạn chưa được loại bỏ khi MACD tiến sát đường signal và có thể cắt xuống nếu cung tăng trở lại</span></div><div class="flex items-center gap-3 py-[9px] border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#44546A]"><span class="shrink-0 min-w-[64px] text-center font-extrabold text-[15px] px-2.5 py-[5px] rounded-[5px] border-l-4" style="background:#E3F4EB;color:#0C5631;border-color:#178A50">Dòng tiền</span><span>VnEconomy 08/07 ghi áp lực bán suy yếu, nhóm vừa và nhỏ thu hút dòng tiền tốt hơn bluechip trong phiên chiều</span></div><div class="flex items-center gap-3 py-[9px] border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#44546A]"><span class="shrink-0 min-w-[64px] text-center font-extrabold text-[15px] px-2.5 py-[5px] rounded-[5px] border-l-4" style="background:#EDF1F6;color:#2C3E55;border-color:#5B6B80">Vùng kiểm tra</span><span>Vùng 1.850-1.860 là vùng kiểm tra gần nhất; tín hiệu tích cực cần đi kèm thanh khoản khớp lệnh và độ rộng duy trì</span></div><div class="flex items-center gap-3 py-[9px] border-b border-dashed border-[#E4E9F0] last:border-b-0 text-[13.5px] text-[#44546A]"><span class="shrink-0 min-w-[64px] text-center font-extrabold text-[15px] px-2.5 py-[5px] rounded-[5px] border-l-4" style="background:#FAF0DC;color:#7A4E05;border-color:#B97A0F">Biến số 24h</span><span>Nếu dầu và Iran tiếp tục nóng trong khi khối ngoại bán PNJ/MSN, thị trường dễ chuyển sang giằng co dù dòng tiền nội đang bắt đáy</span></div>
+    <div class="flex items-center gap-3 py-[9px] border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#44546A]"><span class="shrink-0 min-w-[64px] text-center font-extrabold text-[15px] px-2.5 py-[5px] rounded-[5px] border-l-4" style="background:#E3F4EB;color:#0C5631;border-color:#178A50">Nhịp phục hồi</span><span>Vietstock Daily 09/07 cho rằng VN-Index tiếp tục phục hồi với khối lượng giao dịch cải thiện và vượt mức trung bình 20 ngày</span></div><div class="flex items-center gap-3 py-[9px] border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#44546A]"><span class="shrink-0 min-w-[64px] text-center font-extrabold text-[15px] px-2.5 py-[5px] rounded-[5px] border-l-4" style="background:#FAF0DC;color:#7A4E05;border-color:#B97A0F">Rủi ro kỹ thuật</span><span>Vietstock Daily 09/07 lưu ý rủi ro ngắn hạn chưa được loại bỏ khi MACD tiến sát đường signal và có thể cắt xuống nếu cung tăng trở lại</span></div><div class="flex items-center gap-3 py-[9px] border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#44546A]"><span class="shrink-0 min-w-[64px] text-center font-extrabold text-[15px] px-2.5 py-[5px] rounded-[5px] border-l-4" style="background:#E3F4EB;color:#0C5631;border-color:#178A50">Dòng tiền</span><span>VnEconomy 08/07 ghi áp lực bán suy yếu, nhóm vừa và nhỏ thu hút dòng tiền tốt hơn bluechip trong phiên chiều</span></div><div class="flex items-center gap-3 py-[9px] border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#44546A]"><span class="shrink-0 min-w-[64px] text-center font-extrabold text-[15px] px-2.5 py-[5px] rounded-[5px] border-l-4" style="background:#EDF1F6;color:#2C3E55;border-color:#5B6B80">Vùng kiểm tra</span><span>Vùng 1.850-1.860 là vùng kiểm tra gần nhất; tín hiệu tích cực cần đi kèm thanh khoản khớp lệnh và độ rộng duy trì</span></div><div class="flex items-center gap-3 py-[9px] border-b border-dashed border-[#DDD7CC] last:border-b-0 text-[13.5px] text-[#44546A]"><span class="shrink-0 min-w-[64px] text-center font-extrabold text-[15px] px-2.5 py-[5px] rounded-[5px] border-l-4" style="background:#FAF0DC;color:#7A4E05;border-color:#B97A0F">Biến số 24h</span><span>Nếu dầu và Iran tiếp tục nóng trong khi khối ngoại bán PNJ/MSN, thị trường dễ chuyển sang giằng co dù dòng tiền nội đang bắt đáy</span></div>
   </section></div>
 </main>
-<div class="pt-2.5 pb-[26px]">
-  <div class="max-w-[1100px] mx-auto px-5">
-    <div class="bg-[#E7F0FC] rounded-[10px] px-8 py-[26px] flex gap-[18px] items-start">
-      <div class="text-[52px] font-extrabold text-[#1E6FD9] leading-[0.8] font-serif">"</div>
-      <div>
-        <div class="text-[11px] font-extrabold tracking-[0.13em] uppercase text-[#1E6FD9] mb-[7px]">Đánh giá của desk</div>
-        <p class="text-[16.5px] italic font-medium text-[#0F4187] leading-[1.65]">Phe bull có điểm tựa rõ hơn so với hôm qua: VN-Index tăng tiếp, thanh khoản HOSE vượt trung bình 20 ngày, độ rộng nghiêng xanh và cá nhân mua ròng mạnh qua khớp lệnh. Phe bear vẫn có lý do thận trọng vì khối ngoại bán ròng trở lại, PNJ/MSN là điểm nóng và FPT kéo nhóm công nghệ yếu. Ngoại biên là biến số quyết định 24h khi Brent tăng mạnh theo rủi ro Iran/Hormuz, tạo hiệu ứng hai mặt: hỗ trợ dầu khí nhưng làm chi phí nhiên liệu và tâm lý rủi ro nhạy hơn. Kịch bản cơ sở là thị trường kiểm định vùng 1.850-1.860 với độ rộng và thanh khoản là tín hiệu xác nhận chính.</p>
-        <div class="mt-2 text-[11px] font-bold tracking-[0.13em] uppercase text-[#1E6FD9]">— Agent tổng hợp tin tức · 09.07.2026 · diễn giải tác động, không phải khuyến nghị</div>
-      </div>
+<div class="px-5 md:px-12 pb-10">
+  <div class="relative overflow-hidden bg-[linear-gradient(135deg,#102F49,#0A2135)] rounded-2xl px-7 md:px-10 py-8 flex gap-[18px] items-start shadow-[0_22px_55px_rgba(16,42,67,.18)]">
+    <div class="absolute right-0 top-0 w-48 h-48 rounded-full bg-[#D9A44D]/10 blur-3xl" aria-hidden="true"></div>
+    <div class="display-title text-[58px] font-bold text-[#E4B55D] leading-[0.8]">“</div>
+    <div>
+      <div class="text-[11px] font-extrabold tracking-[0.15em] uppercase text-[#E4B55D] mb-2">Đánh giá của LPBS Infless team</div>
+      <p class="text-[16.5px] italic font-medium text-[#F5F1E9] leading-[1.75]">Phe bull có điểm tựa rõ hơn so với hôm qua: VN-Index tăng tiếp, thanh khoản HOSE vượt trung bình 20 ngày, độ rộng nghiêng xanh và cá nhân mua ròng mạnh qua khớp lệnh. Phe bear vẫn có lý do thận trọng vì khối ngoại bán ròng trở lại, PNJ/MSN là điểm nóng và FPT kéo nhóm công nghệ yếu. Ngoại biên là biến số quyết định 24h khi Brent tăng mạnh theo rủi ro Iran/Hormuz, tạo hiệu ứng hai mặt: hỗ trợ dầu khí nhưng làm chi phí nhiên liệu và tâm lý rủi ro nhạy hơn. Kịch bản cơ sở là thị trường kiểm định vùng 1.850-1.860 với độ rộng và thanh khoản là tín hiệu xác nhận chính.</p>
+      <div class="mt-3 text-[10px] font-bold tracking-[0.12em] uppercase text-[#B7C7D4]">— LPBS Infless team · 09.07.2026 · diễn giải tác động, không phải khuyến nghị</div>
     </div>
   </div>
 </div>
-<div class="bg-[#122B4D] text-white mt-3.5 pt-[22px]">
+</div>
+</div>
+<div class="bg-[#0B2236] text-white mt-8 pt-[22px]">
   <div class="max-w-[1100px] mx-auto px-5 pb-4">
     <div class="text-[11px] text-[#9FB2CC] italic">Tài liệu tham khảo tổng hợp tự động · các dòng → là diễn giải tác động của agent · không phải khuyến nghị giao dịch chứng khoán</div>
     <div class="mt-3 pt-3 border-t border-white/15 text-[11px] text-[#9FB2CC] leading-[2]"><span class="font-bold text-white/90">Nguồn:</span> <a href="http://vietstock.vn/2026/07/0907-doc-gi-truoc-gio-giao-dich-chung-khoan-830-1464174.htm" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">Vietstock 09/07 06:02 — Đọc gì trước giờ giao dịch chứng khoán?</a> · <a href="http://vietstock.vn/2026/07/theo-dau-dong-tien-ca-map-0807-pnj-la-tam-diem-ban-rong-khoi-ngoai-830-1464128.htm" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">Vietstock 08/07 18:54 — Theo dấu dòng tiền cá mập 08/07</a> · <a href="http://vietstock.vn/2026/07/nhip-dap-thi-truong-0807-dien-bien-giang-co-keo-dai-khoi-ngoai-ban-rong-manh-co-phieu-pnj-1636-1463740.htm" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">Vietstock 08/07 16:52 — Nhịp đập Thị trường 08/07</a> · <a href="http://vietstock.vn/2026/07/vietstock-daily-09072026-giu-nhip-phuc-hoi-1636-1464055.htm" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">Vietstock 08/07 18:17 — Vietstock Daily 09/07/2026</a> · <a href="https://vneconomy.vn/ap-luc-ban-tiep-tuc-suy-yeu-thi-truong-thuan-da-tang.htm" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">VnEconomy 08/07 15:30 — Áp lực bán tiếp tục suy yếu</a> · <a href="https://vneconomy.vn/ca-nhan-mua-rong-gan-1000-ty-qua-khop-lenh-co-phieu-nao-duoc-san-nhieu-nhat.htm" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">VnEconomy 08/07 22:21 — Cá nhân mua ròng gần 1.000 tỷ qua khớp lệnh</a> · <a href="https://vneconomy.vn/cac-etf-tiep-tuc-rut-rong-o-at-khoi-thi-truong-viet-nam.htm" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">VnEconomy 08/07 14:02 — Các ETF tiếp tục rút ròng khỏi Việt Nam</a> · <a href="https://vneconomy.vn/nha-dau-tu-ca-nhan-lai-o-at-mo-tai-khoan-chung-khoan.htm" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">VnEconomy 08/07 14:02 — Nhà đầu tư cá nhân mở mới gần 268.000 tài khoản</a> · <a href="http://vietstock.vn/2026/07/leadcap-ban-gan-nua-khoan-dau-tu-vsc-chap-nhan-lo-hon-20-739-1463931.htm" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">Vietstock 08/07 17:00 — LeadCap bán gần nửa khoản đầu tư VSC</a> · <a href="http://vietstock.vn/2026/07/tci-muon-dua-khoan-dau-tu-tai-bong-bach-tuyet-ve-sgi-739-1463775.htm" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">Vietstock 08/07 11:36 — TCI muốn đưa khoản đầu tư BBT về SGI</a> · <a href="http://vietstock.vn/2026/07/co-phieu-giam-manh-sau-thong-tin-thao-tung-dpg-len-tieng-tran-an-co-dong-830-1463833.htm" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">Vietstock 08/07 14:19 — DPG lên tiếng sau thông tin thao túng</a> · <a href="http://vietstock.vn/2026/07/muon-tang-truong-hai-con-so-doanh-nghiep-kien-nghi-go-ngay-cac-diem-nghen-761-1464172.htm" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">Vietstock 08/07 19:55 — Doanh nghiệp kiến nghị gỡ điểm nghẽn</a> · <a href="https://www.wsj.com/finance/stocks/wall-streets-peace-trade-collides-with-renewed-iran-fighting-86b83d67?mod=rss_markets_main" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">WSJ Markets 09/07 — Wall Street’s peace trade collides with renewed Iran fighting</a> · <a href="https://www.marketwatch.com/story/oil-prices-jump-by-the-most-in-two-months-after-trump-suggests-u-s-iran-cease-fire-is-over-9fa7caee?mod=mw_rss_topstories" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">MarketWatch RSS 09/07 — Oil prices extend gains after U.S. strikes Iran</a> · <a href="https://www.marketwatch.com/story/oil-surges-as-strait-of-hormuz-is-back-into-full-conflict-conditions-6ef59562?mod=mw_rss_topstories" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">MarketWatch RSS 09/07 — Strait of Hormuz back under full-conflict conditions</a> · <a href="https://oilprice.com/Latest-Energy-News/World-News/IMF-Downgrades-Global-Economic-Growth-Forecast-To-3-Amid-Iran-War.html" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">OilPrice 09/07 02:00 — IMF downgrades global growth forecast amid Iran war</a> · <a href="https://finance.yahoo.com/" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">Yahoo Finance chart 09/07 — S&amp;P 500, Brent, Nikkei, vàng, Bitcoin</a> · <a href="https://cafef.vn/du-lieu.chn" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">CafeF 08/07 — khối ngoại 3 sàn qua msh-appdata</a> · <a href="https://data.vietnambiz.vn/currency-interest-rate" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">VietnamBiz Data 06/07/2026 — currency-interest-rate</a> · <a href="https://www.xe.com/currencycharts/?from=USD&amp;to=VND" target="_blank" rel="noopener" class="text-[#8FBCF2] hover:underline">XE 07:09 09-07 ICT — USD/VND charting-rates (tạm dùng)</a></div>
   </div>
 </div>
 
-<footer class="sticky bottom-0 z-40 bg-[#122B4D] text-white border-t-[3px] border-[#1E6FD9] shadow-[0_-4px_18px_rgba(0,0,0,.22)] mt-3.5">
-  <div class="max-w-[1100px] mx-auto px-5 py-3 flex justify-between items-center gap-4 flex-wrap">
-    <div class="min-w-0 flex-1">
-      <div class="font-extrabold tracking-[0.12em] uppercase text-[13px]">Bản tin TTCK Việt Nam</div>
-      <div class="text-[10.5px] text-[#9FB2CC] italic leading-snug">Tài liệu tham khảo tổng hợp tự động · không phải khuyến nghị giao dịch chứng khoán</div>
-    </div>
-    <a href="https://lpbs-infless.vercel.app" target="_blank" rel="noopener" class="shrink-0 inline-flex items-center gap-2 bg-[#1E6FD9] hover:bg-[#1558B0] text-white font-bold text-[13px] tracking-[0.04em] px-5 py-2.5 rounded-lg transition-colors whitespace-nowrap">Nhận tư vấn <span aria-hidden="true">→</span></a>
+<footer class="contact-footer sticky bottom-0 z-40 bg-[#0B2236]/95 text-white border-t border-[#D9A44D]/70 shadow-[0_-8px_28px_rgba(8,29,49,.22)] backdrop-blur-xl">
+  <div class="max-w-[1100px] mx-auto px-5 py-2.5 flex justify-between items-center gap-5">
+    <div class="text-[11px] text-[#9FB2CC] italic min-w-0">Tài liệu tham khảo tổng hợp tự động · không phải khuyến nghị giao dịch chứng khoán</div>
+    <a href="https://lpbs-infless.vercel.app" target="_blank" rel="noopener" class="hidden sm:flex shrink-0 items-center gap-3 text-white no-underline hover:no-underline" aria-label="Quét mã QR tham gia nhóm Zalo" style="position:relative;">
+      <span class="text-right"><span class="block text-[10px] font-extrabold tracking-[0.13em] uppercase text-[#E4B55D]">Tham gia nhóm Zalo</span><span class="block text-[9px] text-[#B9C6D1] mt-0.5">Quét mã để kết nối cùng desk</span></span>
+      <span class="bg-white p-1 rounded-lg shadow-[0_5px_16px_rgba(0,0,0,.25)]" style="position:absolute;bottom:0;width:150px;height:150px;transform:translateX(150px);"><img src="zalo-group-qr.png" alt="Mã QR tham gia nhóm Zalo" class=""></span>
+    </a>
+    <button type="button" id="btn-zalo-qr" class="sm:hidden shrink-0 text-[11px] font-extrabold tracking-[0.08em] uppercase text-[#0B2236] bg-[#E4B55D] px-3.5 py-2 rounded-md" aria-haspopup="dialog" aria-controls="zalo-qr-modal">Liên hệ tư vấn</button>
   </div>
 </footer>
+
+<div id="zalo-qr-modal" class="fixed inset-0 z-50 sm:hidden pointer-events-none" aria-hidden="true">
+  <div id="zalo-qr-backdrop" class="absolute inset-0 bg-black/60 opacity-0 transition-opacity duration-300"></div>
+  <div id="zalo-qr-panel" class="absolute top-0 right-0 h-full w-full max-w-[360px] bg-[#0B2236] text-white shadow-[-12px_0_40px_rgba(0,0,0,.35)] translate-x-full transition-transform duration-300 ease-out flex flex-col">
+    <div class="flex items-center justify-between px-5 py-4 border-b border-white/10">
+      <span class="text-[11px] font-extrabold tracking-[0.13em] uppercase text-[#E4B55D]">Tham gia nhóm Zalo</span>
+      <button type="button" id="btn-zalo-qr-close" aria-label="Đóng" class="text-white/70 hover:text-white text-2xl leading-none">&times;</button>
+    </div>
+    <div class="flex-1 flex flex-col items-center justify-center gap-5 px-6 py-8 text-center">
+      <div class="bg-white p-2 rounded-xl shadow-[0_5px_16px_rgba(0,0,0,.25)]"><img src="zalo-group-qr.png" alt="Mã QR tham gia nhóm Zalo" class="w-48 h-48 block rounded-lg"></div>
+      <a href="zalo-group-qr.png" download="zalo-group-qr.png" class="inline-flex items-center justify-center gap-2 bg-[#E4B55D] text-[#0B2236] text-[12.5px] font-extrabold tracking-[0.06em] uppercase px-5 py-2.5 rounded-md no-underline hover:no-underline">Lưu mã QR</a>
+      <p class="text-[12px] text-[#B9C6D1] leading-relaxed max-w-[260px]">Sau khi lưu ảnh về máy, mở app Zalo, ở phần quét mã QR chọn "Ảnh có sẵn".</p>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+  var btn=document.getElementById('btn-zalo-qr'),modal=document.getElementById('zalo-qr-modal'),backdrop=document.getElementById('zalo-qr-backdrop'),panel=document.getElementById('zalo-qr-panel'),closeBtn=document.getElementById('btn-zalo-qr-close');
+  if(!btn||!modal) return;
+  function open(){modal.classList.remove('pointer-events-none');modal.setAttribute('aria-hidden','false');requestAnimationFrame(function(){backdrop.classList.remove('opacity-0');panel.classList.remove('translate-x-full');});document.body.style.overflow='hidden';}
+  function close(){backdrop.classList.add('opacity-0');panel.classList.add('translate-x-full');document.body.style.overflow='';setTimeout(function(){modal.classList.add('pointer-events-none');modal.setAttribute('aria-hidden','true');},300);}
+  btn.addEventListener('click',open);
+  closeBtn.addEventListener('click',close);
+  backdrop.addEventListener('click',close);
+  document.addEventListener('keydown',function(e){if(e.key==='Escape') close();});
+})();
+</script>
 </body>
 </html>
