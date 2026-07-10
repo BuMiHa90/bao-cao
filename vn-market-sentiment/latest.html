@@ -6,239 +6,279 @@
 <title>Tâm lý nhà đầu tư: Sợ hãi 43/100 — 10.07.2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Be Vietnam Pro',system-ui,sans-serif;background:#EDF0F5;color:#122B4D;line-height:1.6;-webkit-font-smoothing:antialiased}
-a{color:#1E6FD9;text-decoration:none}a:hover{text-decoration:underline}
-.khung{max-width:1100px;margin:0 auto;padding:0 20px}
-.topbar{background:#fff;border-bottom:3px solid #122B4D}
-.topbar .khung{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;gap:12px;flex-wrap:wrap}
-.brand{display:flex;align-items:center;gap:10px}
-.brand .logo{width:30px;height:30px;border-radius:50%;background:#122B4D;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px}
-.brand .ten{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
-.brand .phu{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#1E6FD9;font-weight:600}
-.tieude-bar{font-size:18px;font-weight:800;color:#122B4D}
-.meta-bar{text-align:right;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#5B6B80;font-weight:600;line-height:1.8}
-.meta-bar b{color:#122B4D}
-.hero{background:#fff;border-bottom:1px solid #DDE3EC}
-.hero .khung{display:grid;grid-template-columns:minmax(300px,1fr) 2fr;gap:32px;padding-top:30px;padding-bottom:26px}
-.badge-ngay{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#1E6FD9;border:1.5px solid #1E6FD9;padding:5px 12px;border-radius:4px;margin-bottom:12px}
-.hero h1{font-size:42px;line-height:1.08;font-weight:800;color:#122B4D;letter-spacing:-.01em}
-.hero h1 .diem{color:#5B6B80;font-size:26px;font-weight:700}
-.hero .diem-nhan{font-size:20px;font-weight:700;line-height:1.4;margin-bottom:10px}
-.hero .diem-nhan .xanh{color:#1E6FD9}
-.hero .dande{font-size:14.5px;color:#44546A;font-style:italic}
-.metrics{background:#fff;padding:6px 0 26px}
-.metrics .khung{display:grid;grid-template-columns:repeat(auto-fit,minmax(152px,1fr));gap:14px}
-.mcard{border:1px solid #DDE3EC;border-radius:8px;padding:14px 16px;background:#fff}
-.mcard .nhan{font-size:10px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#5B6B80;margin-bottom:6px}
-.mcard .so{font-size:25px;font-weight:800;color:#122B4D;letter-spacing:-.01em;line-height:1.1}
-.mcard .phu{font-size:13px;font-weight:700;margin-top:3px}
-.mcard .chu{margin-top:9px;font-size:11px;color:#5B6B80;border-left:3px solid #DDE3EC;padding:2px 0 2px 9px;font-style:italic;line-height:1.45}
-.noidung{padding:26px 0 8px}
-.noidung .khung{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-.sec{background:#fff;border:1px solid #DDE3EC;border-radius:10px;padding:22px 24px}
-.sec .dau{display:flex;align-items:baseline;gap:10px;margin-bottom:6px}
-.sec .so-sec{font-size:13px;font-weight:800;color:#1E6FD9;letter-spacing:.06em}
-.sec h2{font-size:19px;font-weight:800;color:#122B4D}
-.sec .ghichu-sec{font-size:11px;color:#8593A6;font-style:italic;margin-bottom:10px}
+html{scroll-behavior:smooth}
+body{font-family:'Be Vietnam Pro',system-ui,sans-serif;color:#1B2C47;line-height:1.6;-webkit-font-smoothing:antialiased;background:#F7F3EB}
+body::before{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;background:
+  radial-gradient(circle at 8% 4%, rgba(216,148,47,.16), transparent 28rem),
+  radial-gradient(circle at 92% 16%, rgba(16,42,67,.10), transparent 34rem),
+  linear-gradient(180deg,#FBF8F2 0%,#F3EEE5 100%)}
+a{color:#A66A17;text-decoration:none}a:hover{text-decoration:underline}
+.khung{max-width:1120px;margin:0 auto;padding:0 20px}
+.display{font-family:'Playfair Display',Georgia,serif;text-wrap:balance}
+.editorial-rule{height:1px;background:linear-gradient(90deg,transparent,rgba(166,106,23,.7) 18%,rgba(216,148,47,.9) 50%,rgba(166,106,23,.7) 82%,transparent)}
+
+.topbar{background:rgba(251,248,242,.9);border-bottom:1px solid #DED7CA;position:sticky;top:0;z-index:40;backdrop-filter:blur(14px);box-shadow:0 8px 26px rgba(16,42,67,.06)}
+.topbar .khung{display:flex;justify-content:space-between;align-items:center;padding:15px 20px;gap:12px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none}
+.brand .logo{width:34px;height:34px;border-radius:50%;background:linear-gradient(145deg,#102A43,#081D31);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;box-shadow:0 4px 12px rgba(16,42,67,.25)}
+.brand .ten{font-size:15px;font-weight:800;color:#102A43;line-height:1}
+.brand .phu{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#A66A17;font-weight:700;margin-top:3px}
+.topbar .lienket{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#A66A17}
+
+.wrap{max-width:1140px;margin:0 auto;padding:28px 14px 4px}
+.report-sheet{position:relative;overflow:hidden;background:linear-gradient(178deg,rgba(255,253,248,.97),rgba(247,241,231,.96));border:1px solid rgba(210,199,181,.82);border-radius:20px;box-shadow:0 34px 80px rgba(28,43,53,.13)}
+.report-sheet::before{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 84% 4%, rgba(229,174,82,.13), transparent 26rem),linear-gradient(115deg,rgba(255,255,255,.35),transparent 20%)}
+.report-sheet>*{position:relative;z-index:1}
+
+.hero{padding:40px 28px 30px;text-align:center}
+.hero .eyebrow{font-size:11px;font-weight:800;letter-spacing:.32em;text-transform:uppercase;color:#A66A17}
+.hero .rule{margin:18px auto;max-width:420px}
+.hero .datebar{font-size:11px;font-weight:800;letter-spacing:.24em;text-transform:uppercase;color:#A66A17}
+.hero .subtitle{margin-top:7px;font-size:10px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#5B6B85}
+.hero .gauge-wrap{margin-top:20px;display:flex;justify-content:center}
+.hero .dande{margin-top:18px;max-width:760px;margin-left:auto;margin-right:auto;font-size:14.5px;color:#5B6B85;font-style:italic;line-height:1.8}
+
+.metrics{padding:6px 28px 26px}
+.metrics-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.mcard{position:relative;overflow:hidden;border:1px solid #DED7CA;border-radius:12px;padding:16px 17px;background:rgba(255,255,255,.86);backdrop-filter:blur(8px);box-shadow:0 1px 2px rgba(28,43,53,.04)}
+.mcard::before{content:'';position:absolute;left:0;right:0;top:0;height:3px;background:linear-gradient(90deg,#D8942F,#E4B55D);opacity:.9}
+.mcard .nhan{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#8B98AE;margin-bottom:7px}
+.mcard .so{font-size:25px;font-weight:800;color:#102A43;letter-spacing:-.01em;line-height:1.1}
+.mcard .phu{font-size:13px;font-weight:700;margin-top:4px}
+.mcard .chu{margin-top:10px;font-size:11px;color:#5B6B85;border-left:3px solid #E4B55D;padding:2px 0 2px 9px;font-style:italic;line-height:1.45}
+
+.noidung{padding:22px 24px 6px}
+.noidung .grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.sec{background:rgba(255,255,255,.86);border:1px solid #DED7CA;border-radius:16px;padding:22px 24px;backdrop-filter:blur(8px)}
+.sec .dau{display:flex;align-items:center;gap:12px;margin-bottom:9px}
+.sec .so-sec{flex:none;width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(216,148,47,.65);background:#FFF9EE;border-radius:9px;font-size:19px;font-weight:700;color:#A66A17;box-shadow:inset 0 0 0 3px rgba(216,148,47,.08)}
+.sec h2{font-size:19px;font-weight:800;color:#102A43}
+.sec .ghichu-sec{font-size:11px;color:#8B98AE;font-style:italic;margin-bottom:11px}
 .sec.rong{grid-column:1/-1}
-.diem-item{display:flex;gap:11px;padding:9px 0;border-bottom:1px dashed #E4E9F0;font-size:13.5px;color:#2C3E55}
+.diem-item{display:flex;gap:12px;padding:10px 0;border-bottom:1px dashed #EFE8D8;font-size:13.5px;color:#1B2C47}
 .diem-item:last-child{border-bottom:none}
 .diem-item .cham{flex:none;width:8px;height:8px;border-radius:50%;margin-top:7px}
-.bang-item{padding:8px 0;border-bottom:1px dashed #E4E9F0}
+.bang-item{padding:9px 0;border-bottom:1px dashed #EFE8D8}
 .bang-item:last-child{border-bottom:none}
 .bang-dong{display:flex;justify-content:space-between;gap:14px;font-size:13.5px}
-.bang-dong .ct{color:#44546A}
+.bang-dong .ct{color:#5B6B85}
 .bang-dong .gt{font-weight:800;white-space:nowrap;text-align:right}
-.qt-ynghia{margin-top:2px;font-size:12px;color:#0F4187;font-style:italic;line-height:1.5}
-.ma-item{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px dashed #E4E9F0;font-size:13.5px;color:#2C3E55}
+.qt-ynghia{margin-top:3px;font-size:12px;color:#3A5480;font-style:italic;line-height:1.5}
+.ma-item{display:flex;gap:11px;align-items:flex-start;padding:9px 0;border-bottom:1px dashed #EFE8D8;font-size:13.5px;color:#1B2C47}
 .ma-item:last-child{border-bottom:none}
-.ma-chip{flex:none;font-size:11.5px;font-weight:800;padding:2px 9px;border-radius:4px;margin-top:2px;letter-spacing:.04em}
-.nguon-dong{margin-top:2px;font-size:11px;color:#8593A6;font-style:italic}
-.comp{margin:11px 0}
-.comp-head{display:flex;justify-content:space-between;font-size:13.5px;font-weight:600;color:#2C3E55;margin-bottom:4px}
-.comp-head .trongso{color:#8593A6;font-weight:400;font-size:11.5px}
+.ma-chip{flex:none;font-size:11.5px;font-weight:800;padding:2px 10px;border-radius:99px;margin-top:2px;letter-spacing:.04em}
+.nguon-dong{margin-top:2px;font-size:11px;color:#8B98AE;font-style:italic}
+.comp{margin:13px 0}
+.comp-head{display:flex;justify-content:space-between;font-size:13.5px;font-weight:600;color:#1B2C47;margin-bottom:5px}
+.comp-head .trongso{color:#8B98AE;font-weight:400;font-size:11.5px}
 .comp-head b{font-size:15px;font-weight:800}
-.bar{background:#E4E9F0;border-radius:99px;height:8px}
+.bar{background:#EFE8D8;border-radius:99px;height:8px;overflow:hidden}
 .fill{height:8px;border-radius:99px}
-table{border-collapse:collapse;width:100%;margin:10px 0 4px;font-size:12.5px}
-th{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#5B6B80;border-bottom:1px solid #DDE3EC;padding:6px 6px;text-align:right}
-td{border-bottom:1px dashed #E4E9F0;padding:7px 6px;text-align:right;font-weight:600;color:#2C3E55}
+table{border-collapse:collapse;width:100%;margin:12px 0 4px;font-size:12.5px}
+th{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#8B98AE;border-bottom:1px solid #DED7CA;padding:7px 7px;text-align:right}
+td{border-bottom:1px dashed #EFE8D8;padding:8px 7px;text-align:right;font-weight:600;color:#1B2C47}
 th:first-child,td:first-child{text-align:left}
 tr:last-child td{border-bottom:none}
-.quote{padding:10px 0 26px}
-.quote .hop{background:#E7F0FC;border-radius:10px;padding:26px 32px;display:flex;gap:18px;align-items:flex-start}
-.quote .dau-nhay{font-size:52px;font-weight:800;color:#1E6FD9;line-height:.8;font-family:Georgia,serif}
-.dg-tieude{font-size:11px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:#1E6FD9;margin-bottom:7px}
-.quote p{font-size:16.5px;font-style:italic;font-weight:500;color:#0F4187;line-height:1.65}
-.quote .ai{margin-top:8px;font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#1E6FD9;font-style:normal}
-.chantrang{background:#122B4D;color:#fff;margin-top:14px}
-.chantrang .khung{padding-top:22px;padding-bottom:22px}
-.chantrang .hang{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
-.chantrang .brand-ft{font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:13px}
-.chantrang .mota-ft{font-size:11px;color:#9FB2CC;font-style:italic}
-.chantrang .nguon{margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,.15);font-size:11px;color:#9FB2CC;line-height:2}
-.chantrang .nguon a{color:#8FBCF2}
-@media(max-width:760px){.hero .khung{grid-template-columns:1fr;gap:18px}.hero h1{font-size:32px}.noidung .khung{grid-template-columns:1fr}.tieude-bar{display:none}}
+
+.quote{padding:8px 24px 30px}
+.quote .hop{position:relative;overflow:hidden;background:linear-gradient(135deg,#102A43,#081D31);border-radius:18px;padding:30px 32px;display:flex;gap:20px;align-items:flex-start;box-shadow:0 22px 55px rgba(16,42,67,.18)}
+.quote .dau-nhay{position:relative;font-family:'Playfair Display',Georgia,serif;font-size:54px;font-weight:800;color:#E4B55D;line-height:.8}
+.dg-tieude{position:relative;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#E4B55D;margin-bottom:8px}
+.quote p{position:relative;font-size:16.5px;font-style:italic;font-weight:500;color:#F5F1E9;line-height:1.72}
+.quote .ai{position:relative;margin-top:9px;font-size:10.5px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#B7C7D4;font-style:normal}
+
+.chantrang{background:linear-gradient(180deg,#081D31,#071730);color:#fff;margin-top:22px}
+.chantrang .khung{padding-top:20px;padding-bottom:16px}
+.chantrang .top{font-size:11px;color:#9FB2CC;font-style:italic}
+.chantrang .nguon{margin-top:12px;padding-top:12px;border-top:1px solid rgba(255,255,255,.14);font-size:11px;color:#9FB2CC;line-height:2}
+.chantrang .nguon a{color:#E4B55D}
+
+@media(max-width:760px){
+  .hero{padding:30px 18px 22px}
+  .metrics{padding:6px 18px 20px}
+  .noidung{padding:18px 14px 4px}
+  .noidung .grid2{grid-template-columns:1fr}
+  .quote{padding:6px 14px 24px}
+}
+@media(min-width:761px){
+  .metrics-grid{grid-template-columns:repeat(3,1fr)}
+}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 </style>
 </head>
 <body>
 
 <header class="topbar"><div class="khung">
-  <div class="brand"><div class="logo">TL</div><div><div class="ten">Tâm lý nhà đầu tư</div><div class="phu">Sentiment desk</div></div></div>
-  <div class="tieude-bar">— Báo cáo tâm lý thị trường —</div>
-  <div class="meta-bar"><b>THỨ SÁU · 10.07.2026</b><br>Đo sau giờ đóng cửa · <a href="archive.html">tất cả báo cáo</a></div>
+  <a class="brand" href="#">
+    <div class="logo">TL</div>
+    <div><div class="ten">Tâm lý nhà đầu tư</div><div class="phu">Sentiment desk</div></div>
+  </a>
+  <a class="lienket" href="archive.html">Tất cả báo cáo</a>
 </div></header>
 
-<div class="hero"><div class="khung">
-  <div><span class="badge-ngay">Báo cáo tâm lý · 10.07.2026</span>
-    <h1>Sợ hãi <span class="diem">43,3/100</span></h1>
-    
-<svg viewBox="0 0 320 175" width="300" height="164" xmlns="http://www.w3.org/2000/svg">
-  <path d="M 40.0 150.0 A 120 120 0 0 1 75.1 65.1" stroke="#8C231D" stroke-width="26" fill="none" stroke-linecap="butt"/><path d="M 75.1 65.1 A 120 120 0 0 1 141.2 31.5" stroke="#D6453D" stroke-width="26" fill="none" stroke-linecap="butt"/><path d="M 141.2 31.5 A 120 120 0 0 1 178.8 31.5" stroke="#B97A0F" stroke-width="26" fill="none" stroke-linecap="butt"/><path d="M 178.8 31.5 A 120 120 0 0 1 244.9 65.1" stroke="#178A50" stroke-width="26" fill="none" stroke-linecap="butt"/><path d="M 244.9 65.1 A 120 120 0 0 1 280.0 150.0" stroke="#0C5631" stroke-width="26" fill="none" stroke-linecap="butt"/>
-  <line x1="160" y1="150" x2="141.2" y2="62.0" stroke="#122B4D" stroke-width="4"/>
-  <circle cx="160" cy="150" r="7" fill="#122B4D"/>
-  <text x="160" y="115" text-anchor="middle" font-size="38" font-weight="800"
-        fill="#D6453D">43</text>
-  <text x="160" y="172" text-anchor="middle" font-size="15" font-weight="800"
-        fill="#D6453D">Sợ hãi</text>
-  <text x="30" y="170" font-size="11" fill="#5B6B80">Sợ hãi</text>
-  <text x="248" y="170" font-size="11" fill="#5B6B80">Tham lam</text>
-</svg>
-  </div>
-  <div><div class="diem-nhan">VN-Index 1.828,34 —
-    <span class="xanh">phiên 10.07.2026 · 86 mã tăng/212 giảm · khối ngoại
-    +1.373 tỷ</span></div>
-    <p class="dande">Sợ hãi (43.3/100). Giải ngân chọn lọc: Tâm lý còn yếu; ưu tiên cổ phiếu có nền tảng riêng và quản trị tỷ trọng.</p>
-  </div>
-</div></div>
+<div class="wrap"><div class="report-sheet">
 
-<div class="metrics"><div class="khung"><div class="mcard">
+  <div class="hero">
+    <div class="eyebrow">Báo cáo tâm lý thị trường</div>
+    <div class="editorial-rule rule"></div>
+    <div class="datebar">THỨ SÁU · 10.07.2026</div>
+    <div class="subtitle">Đo sau giờ đóng cửa</div>
+    <div class="gauge-wrap">
+<svg viewBox="0 0 320 205" width="280" height="180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gaugeGrad" x1="56.6" y1="177.6" x2="263.4" y2="177.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E8492E"/>
+      <stop offset="25%" stop-color="#EF8C3B"/>
+      <stop offset="50%" stop-color="#EAC23F"/>
+      <stop offset="75%" stop-color="#A9C94A"/>
+      <stop offset="100%" stop-color="#86BA46"/>
+    </linearGradient>
+    <linearGradient id="knobGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#CBCBCB"/>
+    </linearGradient>
+    <filter id="knobShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <path d="M 56.6 177.6 A 110 110 0 1 1 263.4 177.6" fill="none" stroke="url(#gaugeGrad)" stroke-width="26" stroke-linecap="round"/>
+  <g transform="rotate(-15.2 131.2 33.8)" filter="url(#knobShadow)">
+    <rect x="123.2" y="14.8" width="16" height="38" rx="8" fill="url(#knobGrad)" stroke="#9C9C9C" stroke-width="1.5"/>
+  </g>
+  <text x="160" y="128" text-anchor="middle" font-family="'Be Vietnam Pro',system-ui,sans-serif" font-size="66" font-weight="800" fill="#7D7D7D">43</text>
+  <text x="160" y="165" text-anchor="middle" font-family="'Be Vietnam Pro',system-ui,sans-serif" font-size="25" font-weight="800" fill="#8C8C8C">Sợ hãi</text>
+</svg></div>
+    <p class="dande">VN-Index 1.828,34 · phiên 10.07.2026 · 86 mã tăng/212 giảm · khối ngoại +1.369 tỷ. Sợ hãi (43.1/100). Giải ngân chọn lọc: Tâm lý còn yếu; ưu tiên cổ phiếu có nền tảng riêng và quản trị tỷ trọng.</p>
+  </div>
+
+  <div class="metrics"><div class="metrics-grid"><div class="mcard">
     <div class="nhan">Chỉ số tâm lý</div>
-    <div class="so">43,3<span style='font-size:14px;color:#5B6B80'>/100</span></div>
-    <div class="phu" style="color:#D6453D">▼ Sợ hãi</div>
-    <div class="chu">Δ so phiên trước: +2,0 điểm</div>
+    <div class="so">43,1<span style='font-size:14px;color:#5B6B85'>/100</span></div>
+    <div class="phu" style="color:#C4453D">▼ Sợ hãi</div>
+    <div class="chu">Δ so phiên trước: +1,8 điểm</div>
   </div><div class="mcard">
     <div class="nhan">VN-Index</div>
     <div class="so">1.828,34</div>
-    <div class="phu" style="color:#D6453D">▼ -0,67%</div>
+    <div class="phu" style="color:#C4453D">▼ -0,67%</div>
     <div class="chu">phiên 10.07.2026 · đóng cửa 15h00</div>
   </div><div class="mcard">
     <div class="nhan">Độ rộng HOSE</div>
     <div class="so">86 / 212</div>
-    <div class="phu" style="color:#D6453D">▼ nghiêng mã giảm</div>
+    <div class="phu" style="color:#C4453D">▼ nghiêng mã giảm</div>
     <div class="chu">tiền vào mã tăng chiếm 38,1% giá trị khớp (5 phiên)</div>
   </div><div class="mcard">
     <div class="nhan">Khối ngoại</div>
-    <div class="so">+1.373 tỷ</div>
-    <div class="phu" style="color:#178A50">▲ mua ròng</div>
-    <div class="chu">lũy kế 5 phiên: -2.393 tỷ</div>
+    <div class="so">+1.369 tỷ</div>
+    <div class="phu" style="color:#1F8A5C">▲ mua ròng</div>
+    <div class="chu">lũy kế 5 phiên: -2.397 tỷ</div>
   </div><div class="mcard">
     <div class="nhan">Thanh khoản</div>
     <div class="so">×0,88</div>
-    <div class="phu" style="color:#B97A0F">● so nền 60 phiên</div>
+    <div class="phu" style="color:#D8942F">● so nền 60 phiên</div>
     <div class="chu">VN-Index 5 phiên: -1,81%</div>
   </div><div class="mcard">
     <div class="nhan">Tin tức 24h</div>
-    <div class="so">56</div>
-    <div class="phu" style="color:#B97A0F">● tiêu đề RSS</div>
-    <div class="chu">điểm sentiment tin 56/100 · 6/6 nguồn có tin mới</div>
+    <div class="so">54</div>
+    <div class="phu" style="color:#D8942F">● tiêu đề RSS</div>
+    <div class="chu">điểm sentiment tin 55/100 · 6/6 nguồn có tin mới</div>
   </div></div></div>
 
-<main class="noidung"><div class="khung"><section class="sec rong">
-    <div class="dau"><span class="so-sec">§ 01</span><h2>Nhận định</h2></div>
-    <div class="diem-item"><span class="cham" style="background:#5B6B80"></span><span>Cải thiện +2.0 điểm so với phiên 2026-07-09.</span></div><div class="diem-item"><span class="cham" style="background:#D6453D"></span><span>Áp lực chính: Động lượng giá 20/100 (-6.0 điểm so với trung lập); Giao dịch khối ngoại 28/100 (-3.3 điểm so với trung lập); Độ rộng thị trường 38/100 (-2.4 điểm so với trung lập)</span></div><div class="diem-item"><span class="cham" style="background:#178A50"></span><span>Điểm đỡ: Biến động thị trường 65/100 (+2.2 điểm so với trung lập); Thanh khoản 62/100 (+1.8 điểm so với trung lập); Sentiment tin tức 56/100 (+0.9 điểm so với trung lập)</span></div>
+  <main class="noidung"><div class="grid2"><section class="sec rong">
+    <div class="dau"><span class="so-sec display">1</span><h2>Nhận định</h2></div>
+    <div class="diem-item"><span class="cham" style="background:#5B6B85"></span><span>Cải thiện +1.8 điểm so với phiên 2026-07-09.</span></div><div class="diem-item"><span class="cham" style="background:#C4453D"></span><span>Áp lực chính: Động lượng giá 20/100 (-6.0 điểm so với trung lập); Giao dịch khối ngoại 28/100 (-3.3 điểm so với trung lập); Độ rộng thị trường 38/100 (-2.4 điểm so với trung lập)</span></div><div class="diem-item"><span class="cham" style="background:#1F8A5C"></span><span>Điểm đỡ: Biến động thị trường 65/100 (+2.2 điểm so với trung lập); Thanh khoản 62/100 (+1.8 điểm so với trung lập); Sentiment tin tức 55/100 (+0.8 điểm so với trung lập)</span></div>
   </section><section class="sec rong">
-    <div class="dau"><span class="so-sec">§ 02</span><h2>Cấu phần chỉ số</h2></div>
+    <div class="dau"><span class="so-sec display">2</span><h2>Cấu phần chỉ số</h2></div>
     <div class="ghichu-sec">VN-Index lệch MA125 +0,73% · biến động 20 phiên (năm hóa) 11,5%</div>
   <div class="comp">
     <div class="comp-head"><span>Động lượng giá
       <span class="trongso">· trọng số 20%</span></span>
-      <b style="color:#8C231D">20</b></div>
-    <div class="bar"><div class="fill" style="width:20%;background:#8C231D"></div></div>
+      <b style="color:#8C2A24">20</b></div>
+    <div class="bar"><div class="fill" style="width:20%;background:#8C2A24"></div></div>
   </div>
   <div class="comp">
     <div class="comp-head"><span>Biến động thị trường
       <span class="trongso">· trọng số 15%</span></span>
-      <b style="color:#178A50">65</b></div>
-    <div class="bar"><div class="fill" style="width:65%;background:#178A50"></div></div>
+      <b style="color:#1F8A5C">65</b></div>
+    <div class="bar"><div class="fill" style="width:65%;background:#1F8A5C"></div></div>
   </div>
   <div class="comp">
     <div class="comp-head"><span>Độ rộng thị trường
       <span class="trongso">· trọng số 20%</span></span>
-      <b style="color:#D6453D">38</b></div>
-    <div class="bar"><div class="fill" style="width:38%;background:#D6453D"></div></div>
+      <b style="color:#C4453D">38</b></div>
+    <div class="bar"><div class="fill" style="width:38%;background:#C4453D"></div></div>
   </div>
   <div class="comp">
     <div class="comp-head"><span>Thanh khoản
       <span class="trongso">· trọng số 15%</span></span>
-      <b style="color:#178A50">62</b></div>
-    <div class="bar"><div class="fill" style="width:62%;background:#178A50"></div></div>
+      <b style="color:#1F8A5C">62</b></div>
+    <div class="bar"><div class="fill" style="width:62%;background:#1F8A5C"></div></div>
   </div>
   <div class="comp">
     <div class="comp-head"><span>Giao dịch khối ngoại
       <span class="trongso">· trọng số 15%</span></span>
-      <b style="color:#D6453D">28</b></div>
-    <div class="bar"><div class="fill" style="width:28%;background:#D6453D"></div></div>
+      <b style="color:#C4453D">28</b></div>
+    <div class="bar"><div class="fill" style="width:28%;background:#C4453D"></div></div>
   </div>
   <div class="comp">
     <div class="comp-head"><span>Sentiment tin tức
       <span class="trongso">· trọng số 15%</span></span>
-      <b style="color:#178A50">56</b></div>
-    <div class="bar"><div class="fill" style="width:56%;background:#178A50"></div></div>
+      <b style="color:#1F8A5C">55</b></div>
+    <div class="bar"><div class="fill" style="width:55%;background:#1F8A5C"></div></div>
   </div>
   </section><section class="sec">
-    <div class="dau"><span class="so-sec">§ 03</span><h2>Áp lực chính</h2></div>
-    <div class="ghichu-sec">Cấu phần đang kéo chỉ số xuống dưới mốc trung lập</div><div class="bang-item"><div class="bang-dong"><span class="ct">Động lượng giá</span><span class="gt" style="color:#8C231D">20/100</span></div><div class="qt-ynghia">→ -5.98 điểm so với mốc trung lập 50 (trọng số 20%)</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Giao dịch khối ngoại</span><span class="gt" style="color:#8C231D">28/100</span></div><div class="qt-ynghia">→ -3.27 điểm so với mốc trung lập 50 (trọng số 15%)</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Độ rộng thị trường</span><span class="gt" style="color:#8C231D">38/100</span></div><div class="qt-ynghia">→ -2.42 điểm so với mốc trung lập 50 (trọng số 20%)</div></div>
+    <div class="dau"><span class="so-sec display">3</span><h2>Áp lực chính</h2></div>
+    <div class="ghichu-sec">Cấu phần đang kéo chỉ số xuống dưới mốc trung lập</div><div class="bang-item"><div class="bang-dong"><span class="ct">Động lượng giá</span><span class="gt" style="color:#8C2A24">20/100</span></div><div class="qt-ynghia">→ -5.98 điểm so với mốc trung lập 50 (trọng số 20%)</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Giao dịch khối ngoại</span><span class="gt" style="color:#8C2A24">28/100</span></div><div class="qt-ynghia">→ -3.27 điểm so với mốc trung lập 50 (trọng số 15%)</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Độ rộng thị trường</span><span class="gt" style="color:#8C2A24">38/100</span></div><div class="qt-ynghia">→ -2.42 điểm so với mốc trung lập 50 (trọng số 20%)</div></div>
   </section><section class="sec">
-    <div class="dau"><span class="so-sec">§ 04</span><h2>Điểm đỡ</h2></div>
-    <div class="ghichu-sec">Cấu phần đang giữ chỉ số khỏi rơi sâu hơn</div><div class="bang-item"><div class="bang-dong"><span class="ct">Biến động thị trường</span><span class="gt" style="color:#0C5631">65/100</span></div><div class="qt-ynghia">→ +2.19 điểm so với mốc trung lập 50 (trọng số 15%)</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Thanh khoản</span><span class="gt" style="color:#0C5631">62/100</span></div><div class="qt-ynghia">→ +1.83 điểm so với mốc trung lập 50 (trọng số 15%)</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Sentiment tin tức</span><span class="gt" style="color:#0C5631">56/100</span></div><div class="qt-ynghia">→ +0.93 điểm so với mốc trung lập 50 (trọng số 15%)</div></div>
+    <div class="dau"><span class="so-sec display">4</span><h2>Điểm đỡ</h2></div>
+    <div class="ghichu-sec">Cấu phần đang giữ chỉ số khỏi rơi sâu hơn</div><div class="bang-item"><div class="bang-dong"><span class="ct">Biến động thị trường</span><span class="gt" style="color:#125E3D">65/100</span></div><div class="qt-ynghia">→ +2.19 điểm so với mốc trung lập 50 (trọng số 15%)</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Thanh khoản</span><span class="gt" style="color:#125E3D">62/100</span></div><div class="qt-ynghia">→ +1.83 điểm so với mốc trung lập 50 (trọng số 15%)</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Sentiment tin tức</span><span class="gt" style="color:#125E3D">55/100</span></div><div class="qt-ynghia">→ +0.78 điểm so với mốc trung lập 50 (trọng số 15%)</div></div>
   </section><section class="sec">
-    <div class="dau"><span class="so-sec">§ 05</span><h2>Thay đổi so với phiên trước</h2></div>
-    <div class="ghichu-sec">Cải thiện +2.0 điểm so với phiên 2026-07-09.</div><div class="bang-item"><div class="bang-dong"><span class="ct">Giao dịch khối ngoại</span><span class="gt" style="color:#0C5631">8 → 28</span></div><div class="qt-ynghia">→ đóng góp +3.09 điểm vào thay đổi chỉ số chung</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Động lượng giá</span><span class="gt" style="color:#8C231D">23 → 20</span></div><div class="qt-ynghia">→ đóng góp -0.64 điểm vào thay đổi chỉ số chung</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Độ rộng thị trường</span><span class="gt" style="color:#8C231D">40 → 38</span></div><div class="qt-ynghia">→ đóng góp -0.50 điểm vào thay đổi chỉ số chung</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Thanh khoản</span><span class="gt" style="color:#0C5631">61 → 62</span></div><div class="qt-ynghia">→ đóng góp +0.12 điểm vào thay đổi chỉ số chung</div></div>
+    <div class="dau"><span class="so-sec display">5</span><h2>Thay đổi so với phiên trước</h2></div>
+    <div class="ghichu-sec">Cải thiện +1.8 điểm so với phiên 2026-07-09.</div><div class="bang-item"><div class="bang-dong"><span class="ct">Giao dịch khối ngoại</span><span class="gt" style="color:#125E3D">8 → 28</span></div><div class="qt-ynghia">→ đóng góp +3.09 điểm vào thay đổi chỉ số chung</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Động lượng giá</span><span class="gt" style="color:#8C2A24">23 → 20</span></div><div class="qt-ynghia">→ đóng góp -0.64 điểm vào thay đổi chỉ số chung</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Độ rộng thị trường</span><span class="gt" style="color:#8C2A24">40 → 38</span></div><div class="qt-ynghia">→ đóng góp -0.50 điểm vào thay đổi chỉ số chung</div></div><div class="bang-item"><div class="bang-dong"><span class="ct">Thanh khoản</span><span class="gt" style="color:#125E3D">61 → 62</span></div><div class="qt-ynghia">→ đóng góp +0.12 điểm vào thay đổi chỉ số chung</div></div>
   </section><section class="sec">
-    <div class="dau"><span class="so-sec">§ 06</span><h2>Theo dõi cho phiên tới</h2></div>
-    <div class="diem-item"><span class="cham" style="background:#B97A0F"></span><span>Động lượng giá yếu: VN-Index lệch MA125 +0.73%.</span></div><div class="diem-item"><span class="cham" style="background:#B97A0F"></span><span>Độ rộng thị trường chưa xác nhận; cần xem số mã tăng có lan tỏa qua nhiều nhóm ngành không.</span></div>
+    <div class="dau"><span class="so-sec display">6</span><h2>Theo dõi cho phiên tới</h2></div>
+    <div class="diem-item"><span class="cham" style="background:#D8942F"></span><span>Động lượng giá yếu: VN-Index lệch MA125 +0.73%.</span></div><div class="diem-item"><span class="cham" style="background:#D8942F"></span><span>Độ rộng thị trường chưa xác nhận; cần xem số mã tăng có lan tỏa qua nhiều nhóm ngành không.</span></div>
   </section><section class="sec rong">
-    <div class="dau"><span class="so-sec">§ 07</span><h2>Diễn biến chỉ số tâm lý — 60 phiên</h2></div>
+    <div class="dau"><span class="so-sec display">7</span><h2>Diễn biến chỉ số tâm lý — 60 phiên</h2></div>
     
 <svg viewBox="0 0 640 150" width="100%" xmlns="http://www.w3.org/2000/svg">
-  <line x1="20" y1="102.5" x2="620" y2="102.5" stroke="#E4E9F0" stroke-dasharray="4 4"/><text x="2" y="106.5" font-size="10" fill="#5B6B80">25</text><line x1="20" y1="75.0" x2="620" y2="75.0" stroke="#E4E9F0" stroke-dasharray="4 4"/><text x="2" y="79.0" font-size="10" fill="#5B6B80">50</text><line x1="20" y1="47.5" x2="620" y2="47.5" stroke="#E4E9F0" stroke-dasharray="4 4"/><text x="2" y="51.5" font-size="10" fill="#5B6B80">75</text>
-  <polyline points="20.0,86.7 47.3,81.5 74.5,83.0 101.8,81.2 129.1,80.9 156.4,84.9 183.6,84.3 210.9,87.9 238.2,91.2 265.5,91.0 292.7,89.1 320.0,88.5 347.3,85.3 374.5,76.8 401.8,79.8 429.1,77.1 456.4,86.9 483.6,80.5 510.9,84.6 538.2,81.5 565.5,85.6 592.7,84.6 620.0,82.4" fill="none" stroke="#1E6FD9" stroke-width="2.5"/>
-  <circle cx="620.0" cy="82.4" r="4.5" fill="#1E6FD9"/>
-  <text x="20" y="146" font-size="10" fill="#5B6B80">2026-06-10</text>
-  <text x="620" y="146" font-size="10" fill="#5B6B80" text-anchor="end">2026-07-10</text>
+  <line x1="20" y1="102.5" x2="620" y2="102.5" stroke="#EFE8D8" stroke-dasharray="4 4"/><text x="2" y="106.5" font-size="10" fill="#8B98AE">25</text><line x1="20" y1="75.0" x2="620" y2="75.0" stroke="#EFE8D8" stroke-dasharray="4 4"/><text x="2" y="79.0" font-size="10" fill="#8B98AE">50</text><line x1="20" y1="47.5" x2="620" y2="47.5" stroke="#EFE8D8" stroke-dasharray="4 4"/><text x="2" y="51.5" font-size="10" fill="#8B98AE">75</text>
+  <polyline points="20.0,86.7 47.3,81.5 74.5,83.0 101.8,81.2 129.1,80.9 156.4,84.9 183.6,84.3 210.9,87.9 238.2,91.2 265.5,91.0 292.7,89.1 320.0,88.5 347.3,85.3 374.5,76.8 401.8,79.8 429.1,77.1 456.4,86.9 483.6,80.5 510.9,84.6 538.2,81.5 565.5,85.6 592.7,84.6 620.0,82.6" fill="none" stroke="#D8942F" stroke-width="2.5"/>
+  <circle cx="620.0" cy="82.6" r="4.5" fill="#D8942F"/>
+  <text x="20" y="146" font-size="10" fill="#8B98AE">2026-06-10</text>
+  <text x="620" y="146" font-size="10" fill="#8B98AE" text-anchor="end">2026-07-10</text>
 </svg>
   </section><section class="sec">
-    <div class="dau"><span class="so-sec">§ 08</span><h2>Tin tiêu cực nổi bật</h2></div>
-    <div class="ghichu-sec">24 giờ qua · chấm điểm bằng từ điển sentiment</div><div class="diem-item"><span class="cham" style="background:#D6453D"></span><span><a href="https://vneconomy.vn/ap-luc-ban-tang-co-phieu-dua-nhau-lao-doc.htm" target="_blank" rel="noopener">Áp lực bán tăng, cổ phiếu đua nhau lao dốc</a><div class="nguon-dong">VnEconomy CK · điểm -4.0</div></span></div><div class="diem-item"><span class="cham" style="background:#D6453D"></span><span><a href="https://cafef.vn/3-etf-ngoai-nam-hon-13-ty-usd-co-phieu-viet-nam-fubon-etf-hieu-suat-tot-nhat-lai-bi-rut-von-manh-nhat-188260709233014781.chn" target="_blank" rel="noopener">3 ETF ngoại nắm hơn 1,3 tỷ USD cổ phiếu Việt Nam: Fubon ETF hiệu suất tốt nhất lại bị rút vốn mạnh nhất</a><div class="nguon-dong">CafeF TTCK · điểm -2.0</div></span></div><div class="diem-item"><span class="cham" style="background:#D6453D"></span><span><a href="https://vneconomy.vn/khoi-ngoai-ban-rong-gan-500-ty-phien-nay.htm" target="_blank" rel="noopener">Khối ngoại bán ròng gần 500 tỷ phiên nay</a><div class="nguon-dong">VnEconomy CK · điểm -1.5</div></span></div><div class="diem-item"><span class="cham" style="background:#D6453D"></span><span><a href="https://vneconomy.vn/nhung-rui-ro-kinh-te-toan-cau-can-theo-doi-trong-nua-cuoi-nam-2026.htm" target="_blank" rel="noopener">Những rủi ro kinh tế toàn cầu cần theo dõi trong nửa cuối năm 2026</a><div class="nguon-dong">VnEconomy CK · điểm -1.0</div></span></div><div class="diem-item"><span class="cham" style="background:#D6453D"></span><span><a href="https://cafef.vn/tu-doanh-ctck-xuong-tien-gan-200-ty-gom-co-phieu-viet-phien-giam-diem-188260709181942937.chn" target="_blank" rel="noopener">Tự doanh CTCK &quot;xuống tiền&quot; gần 200 tỷ gom cổ phiếu Việt phiên giảm điểm</a><div class="nguon-dong">CafeF TTCK · điểm -1.0</div></span></div>
+    <div class="dau"><span class="so-sec display">8</span><h2>Tin tiêu cực nổi bật</h2></div>
+    <div class="ghichu-sec">24 giờ qua · chấm điểm bằng từ điển sentiment</div><div class="diem-item"><span class="cham" style="background:#C4453D"></span><span><a href="https://vneconomy.vn/ap-luc-ban-tang-co-phieu-dua-nhau-lao-doc.htm" target="_blank" rel="noopener">Áp lực bán tăng, cổ phiếu đua nhau lao dốc</a><div class="nguon-dong">VnEconomy CK · điểm -4.0</div></span></div><div class="diem-item"><span class="cham" style="background:#C4453D"></span><span><a href="https://cafef.vn/khoi-to-nu-chu-tich-cong-ty-vang-bac-nguyen-thi-xuan-sn-1946-188260710202131513.chn" target="_blank" rel="noopener">Khởi tố nữ chủ tịch công ty vàng bạc Nguyễn Thị Xuân SN 1946</a><div class="nguon-dong">CafeF · điểm -2.0</div></span></div><div class="diem-item"><span class="cham" style="background:#C4453D"></span><span><a href="http://vietstock.vn/2026/07/bcg-va-tcd-chinh-thuc-huy-niem-yet-tu-1507-830-1464937.htm" target="_blank" rel="noopener">BCG và TCD chính thức hủy niêm yết từ 15/07</a><div class="nguon-dong">Vietstock Cổ phiếu · điểm -2.0</div></span></div><div class="diem-item"><span class="cham" style="background:#C4453D"></span><span><a href="https://cafef.vn/3-etf-ngoai-nam-hon-13-ty-usd-co-phieu-viet-nam-fubon-etf-hieu-suat-tot-nhat-lai-bi-rut-von-manh-nhat-188260709233014781.chn" target="_blank" rel="noopener">3 ETF ngoại nắm hơn 1,3 tỷ USD cổ phiếu Việt Nam: Fubon ETF hiệu suất tốt nhất lại bị rút vốn mạnh nhất</a><div class="nguon-dong">CafeF TTCK · điểm -2.0</div></span></div><div class="diem-item"><span class="cham" style="background:#C4453D"></span><span><a href="https://cafef.vn/chung-khoan-do-lua-cuoi-tuan-vn-index-mat-hon-12-diem-du-khoi-ngoai-mua-rong-gan-1400-ty-dong-188260710161611682.chn" target="_blank" rel="noopener">Chứng khoán &quot;đỏ lửa&quot; cuối tuần, VN-Index mất hơn 12 điểm dù khối ngoại mua ròng gần 1.400 tỷ đồng</a><div class="nguon-dong">CafeF TTCK · điểm -1.0</div></span></div>
   </section><section class="sec">
-    <div class="dau"><span class="so-sec">§ 09</span><h2>Tin tích cực nổi bật</h2></div>
-    <div class="ghichu-sec">24 giờ qua · chấm điểm bằng từ điển sentiment</div><div class="diem-item"><span class="cham" style="background:#178A50"></span><span><a href="https://vneconomy.vn/chung-khoan-my-tang-diem-nho-co-phieu-chip-hoi-phuc-gia-dau-giam.htm" target="_blank" rel="noopener">Chứng khoán Mỹ tăng điểm nhờ cổ phiếu chip hồi phục, giá dầu giảm</a><div class="nguon-dong">VnEconomy CK · điểm +2.5</div></span></div><div class="diem-item"><span class="cham" style="background:#178A50"></span><span><a href="http://vietstock.vn/2026/07/dong-luc-nao-de-kinh-te-viet-nam-but-pha-nua-cuoi-nam-761-1464709.htm" target="_blank" rel="noopener">Động lực nào để kinh tế Việt Nam bứt phá nửa cuối năm?</a><div class="nguon-dong">Vietstock Vĩ mô · điểm +2.0</div></span></div><div class="diem-item"><span class="cham" style="background:#178A50"></span><span><a href="http://vietstock.vn/2026/07/khong-chi-bom-von-nen-kinh-te-can-sieu-don-bay-de-but-pha-nua-cuoi-nam-2026-761-1464417.htm" target="_blank" rel="noopener">Không chỉ bơm vốn, nền kinh tế cần &quot;siêu đòn bẩy&quot; để bứt phá nửa cuối năm 2026</a><div class="nguon-dong">Vietstock Vĩ mô · điểm +2.0</div></span></div><div class="diem-item"><span class="cham" style="background:#178A50"></span><span><a href="https://cafef.vn/3200-ty-usd-do-vao-cac-thuong-vu-toan-cau-trong-nua-nam-con-sot-ma-bung-no-nho-nen-kinh-te-ai-188260710092309183.chn" target="_blank" rel="noopener">3.200 tỷ USD đổ vào các thương vụ toàn cầu trong nửa năm: Cơn sốt M&amp;A bùng nổ nhờ nền kinh tế AI</a><div class="nguon-dong">CafeF TTCK · điểm +2.0</div></span></div><div class="diem-item"><span class="cham" style="background:#178A50"></span><span><a href="https://cafef.vn/mot-cong-ty-chung-khoan-uoc-lai-ky-luc-sau-6-thang-188260710143554288.chn" target="_blank" rel="noopener">Một công ty chứng khoán ước lãi kỷ lục sau 6 tháng</a><div class="nguon-dong">CafeF · điểm +2.0</div></span></div>
+    <div class="dau"><span class="so-sec display">9</span><h2>Tin tích cực nổi bật</h2></div>
+    <div class="ghichu-sec">24 giờ qua · chấm điểm bằng từ điển sentiment</div><div class="diem-item"><span class="cham" style="background:#1F8A5C"></span><span><a href="https://vneconomy.vn/chung-khoan-my-tang-diem-nho-co-phieu-chip-hoi-phuc-gia-dau-giam.htm" target="_blank" rel="noopener">Chứng khoán Mỹ tăng điểm nhờ cổ phiếu chip hồi phục, giá dầu giảm</a><div class="nguon-dong">VnEconomy CK · điểm +2.5</div></span></div><div class="diem-item"><span class="cham" style="background:#1F8A5C"></span><span><a href="http://vietstock.vn/2026/07/dong-luc-nao-de-kinh-te-viet-nam-but-pha-nua-cuoi-nam-761-1464709.htm" target="_blank" rel="noopener">Động lực nào để kinh tế Việt Nam bứt phá nửa cuối năm?</a><div class="nguon-dong">Vietstock Vĩ mô · điểm +2.0</div></span></div><div class="diem-item"><span class="cham" style="background:#1F8A5C"></span><span><a href="http://vietstock.vn/2026/07/khong-chi-bom-von-nen-kinh-te-can-sieu-don-bay-de-but-pha-nua-cuoi-nam-2026-761-1464417.htm" target="_blank" rel="noopener">Không chỉ bơm vốn, nền kinh tế cần &quot;siêu đòn bẩy&quot; để bứt phá nửa cuối năm 2026</a><div class="nguon-dong">Vietstock Vĩ mô · điểm +2.0</div></span></div><div class="diem-item"><span class="cham" style="background:#1F8A5C"></span><span><a href="https://cafef.vn/3200-ty-usd-do-vao-cac-thuong-vu-toan-cau-trong-nua-nam-con-sot-ma-bung-no-nho-nen-kinh-te-ai-188260710092309183.chn" target="_blank" rel="noopener">3.200 tỷ USD đổ vào các thương vụ toàn cầu trong nửa năm: Cơn sốt M&amp;A bùng nổ nhờ nền kinh tế AI</a><div class="nguon-dong">CafeF TTCK · điểm +2.0</div></span></div><div class="diem-item"><span class="cham" style="background:#1F8A5C"></span><span><a href="https://cafef.vn/mot-cong-ty-chung-khoan-uoc-lai-ky-luc-sau-6-thang-188260710143554288.chn" target="_blank" rel="noopener">Một công ty chứng khoán ước lãi kỷ lục sau 6 tháng</a><div class="nguon-dong">CafeF TTCK · điểm +2.0</div></span></div>
   </section><section class="sec">
-    <div class="dau"><span class="so-sec">§ 10</span><h2>Chất lượng dữ liệu</h2></div>
-    <div class="ma-item"><span class="ma-chip" style="background:#E3F4EB;color:#0C5631">OK</span><span>VNDirect giá<div class="nguon-dong">499 phiên VN-Index</div></span></div><div class="ma-item"><span class="ma-chip" style="background:#E3F4EB;color:#0C5631">OK</span><span>VNDirect độ rộng<div class="nguon-dong">6 phiên HOSE</div></span></div><div class="ma-item"><span class="ma-chip" style="background:#E3F4EB;color:#0C5631">OK</span><span>VNDirect khối ngoại<div class="nguon-dong">120 phiên</div></span></div><div class="ma-item"><span class="ma-chip" style="background:#E3F4EB;color:#0C5631">OK</span><span>Tin tức RSS<div class="nguon-dong">56 tiêu đề (24h) · 6/6 nguồn có tin mới</div></span></div>
+    <div class="dau"><span class="so-sec display">10</span><h2>Chất lượng dữ liệu</h2></div>
+    <div class="ma-item"><span class="ma-chip" style="background:#E5F4EC;color:#125E3D">OK</span><span>VNDirect giá<div class="nguon-dong">499 phiên VN-Index</div></span></div><div class="ma-item"><span class="ma-chip" style="background:#E5F4EC;color:#125E3D">OK</span><span>VNDirect độ rộng<div class="nguon-dong">6 phiên HOSE</div></span></div><div class="ma-item"><span class="ma-chip" style="background:#E5F4EC;color:#125E3D">OK</span><span>VNDirect khối ngoại<div class="nguon-dong">120 phiên</div></span></div><div class="ma-item"><span class="ma-chip" style="background:#E5F4EC;color:#125E3D">OK</span><span>Tin tức RSS<div class="nguon-dong">54 tiêu đề (24h) · 6/6 nguồn có tin mới</div></span></div>
   </section><section class="sec rong">
-    <div class="dau"><span class="so-sec">§ 11</span><h2>Predictive check</h2></div>
-    <div class="diem-item"><span class="cham" style="background:#1E6FD9"></span><span><b>Đủ mẫu sơ bộ: tối đa 18 quan sát đã có forward return.</b><div class="nguon-dong">Quan sát có forward return — 5 phiên: 18/10 · 10 phiên: 13/10 · 20 phiên: 3/10 · chỉ dùng điểm đã lưu, không tái dựng quá khứ</div></span></div>
+    <div class="dau"><span class="so-sec display">11</span><h2>Predictive check</h2></div>
+    <div class="diem-item"><span class="cham" style="background:#D8942F"></span><span><b>Đủ mẫu sơ bộ: tối đa 18 quan sát đã có forward return.</b><div class="nguon-dong">Quan sát có forward return — 5 phiên: 18/10 · 10 phiên: 13/10 · 20 phiên: 3/10 · chỉ dùng điểm đã lưu, không tái dựng quá khứ</div></span></div>
   <table>
     <thead><tr><th>Vùng sentiment</th><th>Forward</th><th>Mẫu</th><th>Điểm TB</th>
     <th>Return TB</th><th>Median</th><th>Win rate</th><th>Drawdown TB</th></tr></thead>
-    <tbody><tr><td>Sợ hãi</td><td>5p</td><td>14</td><td>40,1</td><td style='color:#0C5631'>+1,13%</td><td>+0,97%</td><td>64,3%</td><td style='color:#8C231D'>-0,19%</td></tr><tr><td>Sợ hãi</td><td>10p</td><td>13</td><td>40,2</td><td style='color:#0C5631'>+1,45%</td><td>+2,06%</td><td>61,5%</td><td style='color:#8C231D'>-0,42%</td></tr><tr><td>Sợ hãi</td><td>20p</td><td>3</td><td>42,1</td><td style='color:#0C5631'>+2,39%</td><td>+2,34%</td><td>100,0%</td><td style='color:#8C231D'>-0,21%</td></tr><tr><td>Trung lập</td><td>5p</td><td>4</td><td>46,8</td><td style='color:#8C231D'>-0,95%</td><td>-0,68%</td><td>0,0%</td><td style='color:#8C231D'>-1,15%</td></tr></tbody>
+    <tbody><tr><td>Sợ hãi</td><td>5p</td><td>14</td><td>40,1</td><td style='color:#125E3D'>+1,13%</td><td>+0,97%</td><td>64,3%</td><td style='color:#8C2A24'>-0,19%</td></tr><tr><td>Sợ hãi</td><td>10p</td><td>13</td><td>40,2</td><td style='color:#125E3D'>+1,45%</td><td>+2,06%</td><td>61,5%</td><td style='color:#8C2A24'>-0,42%</td></tr><tr><td>Sợ hãi</td><td>20p</td><td>3</td><td>42,1</td><td style='color:#125E3D'>+2,39%</td><td>+2,34%</td><td>100,0%</td><td style='color:#8C2A24'>-0,21%</td></tr><tr><td>Trung lập</td><td>5p</td><td>4</td><td>46,8</td><td style='color:#8C2A24'>-0,95%</td><td>-0,68%</td><td>0,0%</td><td style='color:#8C2A24'>-1,15%</td></tr></tbody>
   </table>
   </section></div></main>
 
-<div class="quote"><div class="khung"><div class="hop"><div class="dau-nhay">"</div><div>
-  <div class="dg-tieude">Đánh giá của desk</div>
-  <p>Thận trọng — Giải ngân chọn lọc. Tâm lý còn yếu; ưu tiên cổ phiếu có nền tảng riêng và quản trị tỷ trọng.</p>
-  <div class="ai">— Agent đo tâm lý · 10.07.2026 · diễn giải tự động, không phải khuyến nghị</div>
-</div></div></div></div>
+  <div class="quote"><div class="hop"><div class="dau-nhay">"</div><div>
+    <div class="dg-tieude">Đánh giá của desk</div>
+    <p>Thận trọng — Giải ngân chọn lọc. Tâm lý còn yếu; ưu tiên cổ phiếu có nền tảng riêng và quản trị tỷ trọng.</p>
+    <div class="ai">— Agent đo tâm lý · 10.07.2026 · diễn giải tự động, không phải khuyến nghị</div>
+  </div></div></div>
+
+</div></div>
 
 <footer class="chantrang"><div class="khung">
-  <div class="hang"><span class="brand-ft">Tâm lý nhà đầu tư TTCK Việt Nam</span>
-  <span class="mota-ft">Đo tự động sau mỗi phiên · báo cáo tạo lúc 15:45 10.07.2026 · không phải khuyến nghị giao dịch</span></div>
+  <div class="top">Đo tự động sau mỗi phiên · báo cáo tạo lúc 22:36 10.07.2026 · không phải khuyến nghị giao dịch</div>
   <div class="nguon">Thang điểm: 0–24 Sợ hãi tột độ · 25–44 Sợ hãi · 45–55 Trung lập · 56–75 Tham lam · 76–100 Tham lam tột độ<br>
   Nguồn dữ liệu: <a href="https://www.vndirect.com.vn" target="_blank" rel="noopener">VNDirect</a> (giá, độ rộng, khối ngoại) ·
   tin tức RSS từ <a href="https://cafef.vn" target="_blank" rel="noopener">CafeF</a>,
