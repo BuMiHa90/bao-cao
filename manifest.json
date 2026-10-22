@@ -1,12 +1,12 @@
 {
-    "ban-tin-ttck":  {
-                         "latest":  "2026-10-21"
-                     },
-    "mini-investment-desk":  {
-                                 "latest":  "2026-10-21"
-                             },
-    "vn-market-sentiment":  {
-                                "latest":  "2026-10-21"
-                            },
-    "generatedAt":  "2026-10-21 20:33"
+  "ban-tin-ttck": {
+    "latest": "2026-10-22"
+  },
+  "mini-investment-desk": {
+    "latest": "2026-10-21"
+  },
+  "vn-market-sentiment": {
+    "latest": "2026-10-21"
+  },
+  "generatedAt": "2026-10-22 07:13"
 }
